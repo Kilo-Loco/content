@@ -12,13 +12,23 @@ import SwiftUI
 @main
 struct amplify_auth_web_sign_inApp: App {
     
+    @ObservedObject private var auth = AuthService()
+    
     init() {
         configureAmplify()
+        auth.fetchAuthSession()
+        auth.observeAuth()
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if auth.isSignedIn {
+                SessionView()
+                    .environmentObject(auth)
+            } else {
+                ContentView()
+                    .environmentObject(auth)
+            }
         }
     }
     

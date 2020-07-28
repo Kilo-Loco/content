@@ -14,6 +14,7 @@
 		9EF4849C24CFA03C00D4C14F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF4849B24CFA03C00D4C14F /* Preview Assets.xcassets */; };
 		9EF484A524CFAEC400D4C14F /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EF484A324CFAEC400D4C14F /* amplifyconfiguration.json */; };
 		9EF484A624CFAEC400D4C14F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EF484A424CFAEC400D4C14F /* awsconfiguration.json */; };
+		9EF484A824CFBD5A00D4C14F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF484A724CFBD5A00D4C14F /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9EF4849D24CFA03C00D4C14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EF484A324CFAEC400D4C14F /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		9EF484A424CFAEC400D4C14F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9EF484A724CFBD5A00D4C14F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		9F5C7BFE8977B8194B68ED1D /* Pods-amplify-auth-web-sign-in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-auth-web-sign-in.release.xcconfig"; path = "Target Support Files/Pods-amplify-auth-web-sign-in/Pods-amplify-auth-web-sign-in.release.xcconfig"; sourceTree = "<group>"; };
 		B4E2648184DC4FB4716AA44E /* Pods-amplify-auth-web-sign-in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-auth-web-sign-in.debug.xcconfig"; path = "Target Support Files/Pods-amplify-auth-web-sign-in/Pods-amplify-auth-web-sign-in.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 				9EF484A424CFAEC400D4C14F /* awsconfiguration.json */,
 				9EF4849424CFA03A00D4C14F /* amplify_auth_web_sign_inApp.swift */,
 				9EF4849624CFA03A00D4C14F /* ContentView.swift */,
+				9EF484A724CFBD5A00D4C14F /* AuthService.swift */,
 				9EF4849824CFA03C00D4C14F /* Assets.xcassets */,
 				9EF4849D24CFA03C00D4C14F /* Info.plist */,
 				9EF4849A24CFA03C00D4C14F /* Preview Content */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF484A824CFBD5A00D4C14F /* AuthService.swift in Sources */,
 				9EF4849724CFA03A00D4C14F /* ContentView.swift in Sources */,
 				9EF4849524CFA03A00D4C14F /* amplify_auth_web_sign_inApp.swift in Sources */,
 			);
