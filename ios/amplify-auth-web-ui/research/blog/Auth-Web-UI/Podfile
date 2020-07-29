@@ -1,0 +1,9 @@
+platform :ios, '14.0'
+
+target 'Auth-Web-UI' do
+  use_frameworks!
+
+  pod 'Amplify'
+  pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+
+end
