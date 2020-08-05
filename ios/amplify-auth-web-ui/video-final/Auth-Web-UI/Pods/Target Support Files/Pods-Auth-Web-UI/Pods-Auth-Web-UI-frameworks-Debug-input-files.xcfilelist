@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework
+${BUILT_PRODUCTS_DIR}/AWSPluginsCore/AWSPluginsCore.framework
+${BUILT_PRODUCTS_DIR}/Amplify/Amplify.framework
+${BUILT_PRODUCTS_DIR}/AmplifyPlugins/AmplifyPlugins.framework

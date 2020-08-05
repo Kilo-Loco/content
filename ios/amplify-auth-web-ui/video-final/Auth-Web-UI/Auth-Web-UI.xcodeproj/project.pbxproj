@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1237153719D4DE714A223509 /* Pods_Auth_Web_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D74D49154341E0677FDA21 /* Pods_Auth_Web_UI.framework */; };
+		9E0FD9B424D912F300D73692 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E0FD9B224D912F300D73692 /* awsconfiguration.json */; };
+		9E0FD9B524D912F300D73692 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E0FD9B324D912F300D73692 /* amplifyconfiguration.json */; };
+		9E0FD9B724D9141A00D73692 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0FD9B624D9141A00D73692 /* SignInView.swift */; };
+		9E0FD9B924D9147600D73692 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0FD9B824D9147600D73692 /* SessionView.swift */; };
+		9E0FD9BB24D9156D00D73692 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0FD9BA24D9156D00D73692 /* AuthService.swift */; };
 		9E6C9DE924D218CC00A7223B /* Auth_Web_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C9DE824D218CC00A7223B /* Auth_Web_UIApp.swift */; };
 		9E6C9DEB24D218CC00A7223B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C9DEA24D218CC00A7223B /* ContentView.swift */; };
 		9E6C9DED24D218CE00A7223B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C9DEC24D218CE00A7223B /* Assets.xcassets */; };
@@ -14,12 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47926C0AECE2930893501C43 /* Pods-Auth-Web-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth-Web-UI.release.xcconfig"; path = "Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI.release.xcconfig"; sourceTree = "<group>"; };
+		79D74D49154341E0677FDA21 /* Pods_Auth_Web_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth_Web_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0FD9B224D912F300D73692 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9E0FD9B324D912F300D73692 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9E0FD9B624D9141A00D73692 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9E0FD9B824D9147600D73692 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		9E0FD9BA24D9156D00D73692 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		9E6C9DE524D218CC00A7223B /* Auth-Web-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auth-Web-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6C9DE824D218CC00A7223B /* Auth_Web_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth_Web_UIApp.swift; sourceTree = "<group>"; };
 		9E6C9DEA24D218CC00A7223B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E6C9DEC24D218CE00A7223B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6C9DEF24D218CE00A7223B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E6C9DF124D218CE00A7223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BC5D85B5F0BCEF621A6266 /* Pods-Auth-Web-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth-Web-UI.debug.xcconfig"; path = "Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1237153719D4DE714A223509 /* Pods_Auth_Web_UI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA3D3969F0FDB842B6FCD51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D74D49154341E0677FDA21 /* Pods_Auth_Web_UI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E6C9DDC24D218CC00A7223B = {
 			isa = PBXGroup;
 			children = (
 				9E6C9DE724D218CC00A7223B /* Auth-Web-UI */,
 				9E6C9DE624D218CC00A7223B /* Products */,
+				FD9D1EBEF8FC39805A657453 /* Pods */,
+				0AA3D3969F0FDB842B6FCD51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +77,16 @@
 		9E6C9DE724D218CC00A7223B /* Auth-Web-UI */ = {
 			isa = PBXGroup;
 			children = (
+				9E0FD9B324D912F300D73692 /* amplifyconfiguration.json */,
+				9E0FD9B224D912F300D73692 /* awsconfiguration.json */,
 				9E6C9DE824D218CC00A7223B /* Auth_Web_UIApp.swift */,
 				9E6C9DEA24D218CC00A7223B /* ContentView.swift */,
 				9E6C9DEC24D218CE00A7223B /* Assets.xcassets */,
 				9E6C9DF124D218CE00A7223B /* Info.plist */,
+				9E0FD9BA24D9156D00D73692 /* AuthService.swift */,
 				9E6C9DEE24D218CE00A7223B /* Preview Content */,
+				9E0FD9B624D9141A00D73692 /* SignInView.swift */,
+				9E0FD9B824D9147600D73692 /* SessionView.swift */,
 			);
 			path = "Auth-Web-UI";
 			sourceTree = "<group>";
@@ -69,6 +99,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FD9D1EBEF8FC39805A657453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9BC5D85B5F0BCEF621A6266 /* Pods-Auth-Web-UI.debug.xcconfig */,
+				47926C0AECE2930893501C43 /* Pods-Auth-Web-UI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E6C9DF424D218CE00A7223B /* Build configuration list for PBXNativeTarget "Auth-Web-UI" */;
 			buildPhases = (
+				1769E3FF487126B5D1983639 /* [CP] Check Pods Manifest.lock */,
 				9E6C9DE124D218CC00A7223B /* Sources */,
 				9E6C9DE224D218CC00A7223B /* Frameworks */,
 				9E6C9DE324D218CC00A7223B /* Resources */,
+				D3760DB63B033AAB880BA9D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +169,65 @@
 			files = (
 				9E6C9DF024D218CE00A7223B /* Preview Assets.xcassets in Resources */,
 				9E6C9DED24D218CE00A7223B /* Assets.xcassets in Resources */,
+				9E0FD9B424D912F300D73692 /* awsconfiguration.json in Resources */,
+				9E0FD9B524D912F300D73692 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1769E3FF487126B5D1983639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auth-Web-UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3760DB63B033AAB880BA9D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E6C9DE124D218CC00A7223B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0FD9B724D9141A00D73692 /* SignInView.swift in Sources */,
 				9E6C9DEB24D218CC00A7223B /* ContentView.swift in Sources */,
+				9E0FD9BB24D9156D00D73692 /* AuthService.swift in Sources */,
 				9E6C9DE924D218CC00A7223B /* Auth_Web_UIApp.swift in Sources */,
+				9E0FD9B924D9147600D73692 /* SessionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +352,7 @@
 		};
 		9E6C9DF524D218CE00A7223B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BC5D85B5F0BCEF621A6266 /* Pods-Auth-Web-UI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +375,7 @@
 		};
 		9E6C9DF624D218CE00A7223B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47926C0AECE2930893501C43 /* Pods-Auth-Web-UI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
