@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"authwebui186baac5": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
