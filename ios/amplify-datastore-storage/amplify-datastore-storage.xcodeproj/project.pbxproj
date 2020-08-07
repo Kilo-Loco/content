@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E1191FB24DDE53D00F47868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1191FA24DDE53D00F47868 /* AppDelegate.swift */; };
-		9E1191FD24DDE53D00F47868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1191FC24DDE53D00F47868 /* ContentView.swift */; };
-		9E1191FF24DDE53F00F47868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1191FE24DDE53F00F47868 /* Assets.xcassets */; };
-		9E11920224DDE53F00F47868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E11920124DDE53F00F47868 /* Preview Assets.xcassets */; };
-		9E11920524DDE53F00F47868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E11920324DDE53F00F47868 /* Main.storyboard */; };
+		9E11921E24DDFC2900F47868 /* amplify_datastore_storageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11921D24DDFC2900F47868 /* amplify_datastore_storageApp.swift */; };
+		9E11922024DDFC2900F47868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11921F24DDFC2900F47868 /* ContentView.swift */; };
+		9E11922224DDFC2A00F47868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E11922124DDFC2A00F47868 /* Assets.xcassets */; };
+		9E11922524DDFC2A00F47868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E11922424DDFC2A00F47868 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E1191F724DDE53D00F47868 /* amplify-datastore-storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-datastore-storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E1191FA24DDE53D00F47868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E1191FC24DDE53D00F47868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9E1191FE24DDE53F00F47868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9E11920124DDE53F00F47868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9E11920424DDE53F00F47868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E11920624DDE53F00F47868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E11920724DDE53F00F47868 /* amplify_datastore_storage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = amplify_datastore_storage.entitlements; sourceTree = "<group>"; };
+		9E11921A24DDFC2900F47868 /* amplify-datastore-storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-datastore-storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E11921D24DDFC2900F47868 /* amplify_datastore_storageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplify_datastore_storageApp.swift; sourceTree = "<group>"; };
+		9E11921F24DDFC2900F47868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E11922124DDFC2A00F47868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E11922424DDFC2A00F47868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E11922624DDFC2A00F47868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9E1191F424DDE53D00F47868 /* Frameworks */ = {
+		9E11921724DDFC2900F47868 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,40 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E1191EE24DDE53D00F47868 = {
+		9E11921124DDFC2900F47868 = {
 			isa = PBXGroup;
 			children = (
-				9E1191F924DDE53D00F47868 /* amplify-datastore-storage */,
-				9E1191F824DDE53D00F47868 /* Products */,
+				9E11921C24DDFC2900F47868 /* amplify-datastore-storage */,
+				9E11921B24DDFC2900F47868 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9E1191F824DDE53D00F47868 /* Products */ = {
+		9E11921B24DDFC2900F47868 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E1191F724DDE53D00F47868 /* amplify-datastore-storage.app */,
+				9E11921A24DDFC2900F47868 /* amplify-datastore-storage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E1191F924DDE53D00F47868 /* amplify-datastore-storage */ = {
+		9E11921C24DDFC2900F47868 /* amplify-datastore-storage */ = {
 			isa = PBXGroup;
 			children = (
-				9E1191FA24DDE53D00F47868 /* AppDelegate.swift */,
-				9E1191FC24DDE53D00F47868 /* ContentView.swift */,
-				9E1191FE24DDE53F00F47868 /* Assets.xcassets */,
-				9E11920324DDE53F00F47868 /* Main.storyboard */,
-				9E11920624DDE53F00F47868 /* Info.plist */,
-				9E11920724DDE53F00F47868 /* amplify_datastore_storage.entitlements */,
-				9E11920024DDE53F00F47868 /* Preview Content */,
+				9E11921D24DDFC2900F47868 /* amplify_datastore_storageApp.swift */,
+				9E11921F24DDFC2900F47868 /* ContentView.swift */,
+				9E11922124DDFC2A00F47868 /* Assets.xcassets */,
+				9E11922624DDFC2A00F47868 /* Info.plist */,
+				9E11922324DDFC2A00F47868 /* Preview Content */,
 			);
 			path = "amplify-datastore-storage";
 			sourceTree = "<group>";
 		};
-		9E11920024DDE53F00F47868 /* Preview Content */ = {
+		9E11922324DDFC2A00F47868 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9E11920124DDE53F00F47868 /* Preview Assets.xcassets */,
+				9E11922424DDFC2A00F47868 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -77,13 +72,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E1191F624DDE53D00F47868 /* amplify-datastore-storage */ = {
+		9E11921924DDFC2900F47868 /* amplify-datastore-storage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E11920A24DDE53F00F47868 /* Build configuration list for PBXNativeTarget "amplify-datastore-storage" */;
+			buildConfigurationList = 9E11922924DDFC2A00F47868 /* Build configuration list for PBXNativeTarget "amplify-datastore-storage" */;
 			buildPhases = (
-				9E1191F324DDE53D00F47868 /* Sources */,
-				9E1191F424DDE53D00F47868 /* Frameworks */,
-				9E1191F524DDE53D00F47868 /* Resources */,
+				9E11921624DDFC2900F47868 /* Sources */,
+				9E11921724DDFC2900F47868 /* Frameworks */,
+				9E11921824DDFC2900F47868 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -91,24 +86,24 @@
 			);
 			name = "amplify-datastore-storage";
 			productName = "amplify-datastore-storage";
-			productReference = 9E1191F724DDE53D00F47868 /* amplify-datastore-storage.app */;
+			productReference = 9E11921A24DDFC2900F47868 /* amplify-datastore-storage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9E1191EF24DDE53D00F47868 /* Project object */ = {
+		9E11921224DDFC2900F47868 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					9E1191F624DDE53D00F47868 = {
+					9E11921924DDFC2900F47868 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 9E1191F224DDE53D00F47868 /* Build configuration list for PBXProject "amplify-datastore-storage" */;
+			buildConfigurationList = 9E11921524DDFC2900F47868 /* Build configuration list for PBXProject "amplify-datastore-storage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,54 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 9E1191EE24DDE53D00F47868;
-			productRefGroup = 9E1191F824DDE53D00F47868 /* Products */;
+			mainGroup = 9E11921124DDFC2900F47868;
+			productRefGroup = 9E11921B24DDFC2900F47868 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E1191F624DDE53D00F47868 /* amplify-datastore-storage */,
+				9E11921924DDFC2900F47868 /* amplify-datastore-storage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9E1191F524DDE53D00F47868 /* Resources */ = {
+		9E11921824DDFC2900F47868 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E11920524DDE53F00F47868 /* Main.storyboard in Resources */,
-				9E11920224DDE53F00F47868 /* Preview Assets.xcassets in Resources */,
-				9E1191FF24DDE53F00F47868 /* Assets.xcassets in Resources */,
+				9E11922524DDFC2A00F47868 /* Preview Assets.xcassets in Resources */,
+				9E11922224DDFC2A00F47868 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9E1191F324DDE53D00F47868 /* Sources */ = {
+		9E11921624DDFC2900F47868 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1191FD24DDE53D00F47868 /* ContentView.swift in Sources */,
-				9E1191FB24DDE53D00F47868 /* AppDelegate.swift in Sources */,
+				9E11922024DDFC2900F47868 /* ContentView.swift in Sources */,
+				9E11921E24DDFC2900F47868 /* amplify_datastore_storageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		9E11920324DDE53F00F47868 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E11920424DDE53F00F47868 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		9E11920824DDE53F00F47868 /* Debug */ = {
+		9E11922724DDFC2A00F47868 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,17 +197,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9E11920924DDE53F00F47868 /* Release */ = {
+		9E11922824DDFC2A00F47868 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,85 +252,82 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9E11920B24DDE53F00F47868 /* Debug */ = {
+		9E11922A24DDFC2A00F47868 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "amplify-datastore-storage/amplify_datastore_storage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"amplify-datastore-storage/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "amplify-datastore-storage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-datastore-storage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9E11920C24DDE53F00F47868 /* Release */ = {
+		9E11922B24DDFC2A00F47868 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "amplify-datastore-storage/amplify_datastore_storage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"amplify-datastore-storage/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "amplify-datastore-storage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-datastore-storage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E1191F224DDE53D00F47868 /* Build configuration list for PBXProject "amplify-datastore-storage" */ = {
+		9E11921524DDFC2900F47868 /* Build configuration list for PBXProject "amplify-datastore-storage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E11920824DDE53F00F47868 /* Debug */,
-				9E11920924DDE53F00F47868 /* Release */,
+				9E11922724DDFC2A00F47868 /* Debug */,
+				9E11922824DDFC2A00F47868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E11920A24DDE53F00F47868 /* Build configuration list for PBXNativeTarget "amplify-datastore-storage" */ = {
+		9E11922924DDFC2A00F47868 /* Build configuration list for PBXNativeTarget "amplify-datastore-storage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E11920B24DDE53F00F47868 /* Debug */,
-				9E11920C24DDE53F00F47868 /* Release */,
+				9E11922A24DDFC2A00F47868 /* Debug */,
+				9E11922B24DDFC2A00F47868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9E1191EF24DDE53D00F47868 /* Project object */;
+	rootObject = 9E11921224DDFC2900F47868 /* Project object */;
 }
