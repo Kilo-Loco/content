@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"authwebuid2768e4b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
