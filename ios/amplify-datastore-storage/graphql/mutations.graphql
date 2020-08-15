@@ -1,0 +1,43 @@
+# this is an auto generated file. This will be overwritten
+mutation CreatePost(
+  $input: CreatePostInput!
+  $condition: ModelPostConditionInput
+) {
+  createPost(input: $input, condition: $condition) {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdatePost(
+  $input: UpdatePostInput!
+  $condition: ModelPostConditionInput
+) {
+  updatePost(input: $input, condition: $condition) {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeletePost(
+  $input: DeletePostInput!
+  $condition: ModelPostConditionInput
+) {
+  deletePost(input: $input, condition: $condition) {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

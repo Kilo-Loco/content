@@ -1,0 +1,56 @@
+# this is an auto generated file. This will be overwritten
+query SyncPosts(
+  $filter: ModelPostFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncPosts(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      imageKey
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetPost($id: ID!) {
+  getPost(id: $id) {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListPosts(
+  $filter: ModelPostFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listPosts(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      imageKey
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}

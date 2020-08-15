@@ -1,0 +1,34 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreatePost {
+  onCreatePost {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdatePost {
+  onUpdatePost {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeletePost {
+  onDeletePost {
+    id
+    imageKey
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

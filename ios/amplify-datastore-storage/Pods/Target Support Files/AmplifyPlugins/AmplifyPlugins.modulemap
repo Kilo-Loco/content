@@ -1,0 +1,6 @@
+framework module AmplifyPlugins {
+  umbrella header "AmplifyPlugins-umbrella.h"
+
+  export *
+  module * { export * }
+}

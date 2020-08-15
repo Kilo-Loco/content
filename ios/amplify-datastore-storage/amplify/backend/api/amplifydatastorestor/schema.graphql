@@ -1,0 +1,4 @@
+type Post @model {
+  id: ID!
+  imageKey: String!
+}
