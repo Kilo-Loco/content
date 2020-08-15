@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-authwebui-dev-105959-authRole",
+            "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-authwebui-dev-105959-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-authwebui-dev-105959-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-authwebui-dev-105959-deployment",
+            "UnauthRoleName": "amplify-authwebui-dev-105959-unauthRole",
+            "StackName": "amplify-authwebui-dev-105959",
+            "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-authwebui-dev-105959/7ba445a0-d745-11ea-9db0-0aa7561f3002",
+            "AmplifyAppId": "dhvzsz31ju449"
+        },
+        "categories": {
+            "auth": {
+                "authwebuid2768e4b": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    }
+}

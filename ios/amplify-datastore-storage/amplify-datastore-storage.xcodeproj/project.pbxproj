@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E72870106609A51344DA6B1 /* Pods_amplify_datastore_storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0793EC770138DC89EC9CCDF2 /* Pods_amplify_datastore_storage.framework */; };
+		9E11921E24DDFC2900F47868 /* amplify_datastore_storageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11921D24DDFC2900F47868 /* amplify_datastore_storageApp.swift */; };
+		9E11922024DDFC2900F47868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11921F24DDFC2900F47868 /* ContentView.swift */; };
+		9E11922224DDFC2A00F47868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E11922124DDFC2A00F47868 /* Assets.xcassets */; };
+		9E11922524DDFC2A00F47868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E11922424DDFC2A00F47868 /* Preview Assets.xcassets */; };
+		9E3F460C24E47C4C005DBED0 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F460A24E47C4C005DBED0 /* amplifyconfiguration.json */; };
+		9E3F460D24E47C4C005DBED0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F460B24E47C4C005DBED0 /* awsconfiguration.json */; };
+		9E3F461424E47DBA005DBED0 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F461124E47DBA005DBED0 /* AmplifyModels.swift */; };
+		9E3F461524E47DBA005DBED0 /* Post+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F461224E47DBA005DBED0 /* Post+Schema.swift */; };
+		9E3F461624E47DBA005DBED0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F461324E47DBA005DBED0 /* Post.swift */; };
+		9E3F461824E47F94005DBED0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F461724E47F94005DBED0 /* CameraView.swift */; };
+		9E3F461A24E47FCF005DBED0 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F461924E47FCF005DBED0 /* GalleryView.swift */; };
+		9E3F461C24E4817C005DBED0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F461B24E4817C005DBED0 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0793EC770138DC89EC9CCDF2 /* Pods_amplify_datastore_storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amplify_datastore_storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CFFBE0FACD4817BCDDE20B /* Pods-amplify-datastore-storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-datastore-storage.release.xcconfig"; path = "Target Support Files/Pods-amplify-datastore-storage/Pods-amplify-datastore-storage.release.xcconfig"; sourceTree = "<group>"; };
+		816320D11130C94CB3C39F46 /* Pods-amplify-datastore-storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-datastore-storage.debug.xcconfig"; path = "Target Support Files/Pods-amplify-datastore-storage/Pods-amplify-datastore-storage.debug.xcconfig"; sourceTree = "<group>"; };
+		9E11921A24DDFC2900F47868 /* amplify-datastore-storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-datastore-storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E11921D24DDFC2900F47868 /* amplify_datastore_storageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplify_datastore_storageApp.swift; sourceTree = "<group>"; };
+		9E11921F24DDFC2900F47868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E11922124DDFC2A00F47868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E11922424DDFC2A00F47868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E11922624DDFC2A00F47868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3F460A24E47C4C005DBED0 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9E3F460B24E47C4C005DBED0 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9E3F461124E47DBA005DBED0 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		9E3F461224E47DBA005DBED0 /* Post+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+Schema.swift"; sourceTree = "<group>"; };
+		9E3F461324E47DBA005DBED0 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9E3F461724E47F94005DBED0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		9E3F461924E47FCF005DBED0 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		9E3F461B24E4817C005DBED0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E11921724DDFC2900F47868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E72870106609A51344DA6B1 /* Pods_amplify_datastore_storage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F6DDC569E39C1F2ADD5D10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				816320D11130C94CB3C39F46 /* Pods-amplify-datastore-storage.debug.xcconfig */,
+				76CFFBE0FACD4817BCDDE20B /* Pods-amplify-datastore-storage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FB301C3FEF9DC82C9576B73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0793EC770138DC89EC9CCDF2 /* Pods_amplify_datastore_storage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E11921124DDFC2900F47868 = {
+			isa = PBXGroup;
+			children = (
+				9E11921C24DDFC2900F47868 /* amplify-datastore-storage */,
+				9E11921B24DDFC2900F47868 /* Products */,
+				17F6DDC569E39C1F2ADD5D10 /* Pods */,
+				7FB301C3FEF9DC82C9576B73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E11921B24DDFC2900F47868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E11921A24DDFC2900F47868 /* amplify-datastore-storage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E11921C24DDFC2900F47868 /* amplify-datastore-storage */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F461024E47DBA005DBED0 /* models */,
+				9E3F460A24E47C4C005DBED0 /* amplifyconfiguration.json */,
+				9E3F460B24E47C4C005DBED0 /* awsconfiguration.json */,
+				9E11921D24DDFC2900F47868 /* amplify_datastore_storageApp.swift */,
+				9E3F461724E47F94005DBED0 /* CameraView.swift */,
+				9E3F461B24E4817C005DBED0 /* ImagePicker.swift */,
+				9E3F461924E47FCF005DBED0 /* GalleryView.swift */,
+				9E11921F24DDFC2900F47868 /* ContentView.swift */,
+				9E11922124DDFC2A00F47868 /* Assets.xcassets */,
+				9E11922624DDFC2A00F47868 /* Info.plist */,
+				9E11922324DDFC2A00F47868 /* Preview Content */,
+			);
+			path = "amplify-datastore-storage";
+			sourceTree = "<group>";
+		};
+		9E11922324DDFC2A00F47868 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E11922424DDFC2A00F47868 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E3F461024E47DBA005DBED0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F461124E47DBA005DBED0 /* AmplifyModels.swift */,
+				9E3F461224E47DBA005DBED0 /* Post+Schema.swift */,
+				9E3F461324E47DBA005DBED0 /* Post.swift */,
+			);
+			name = models;
+			path = amplify/generated/models;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E11921924DDFC2900F47868 /* amplify-datastore-storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E11922924DDFC2A00F47868 /* Build configuration list for PBXNativeTarget "amplify-datastore-storage" */;
+			buildPhases = (
+				97F39171C1811C475F4C27A9 /* [CP] Check Pods Manifest.lock */,
+				9E11921624DDFC2900F47868 /* Sources */,
+				9E11921724DDFC2900F47868 /* Frameworks */,
+				9E11921824DDFC2900F47868 /* Resources */,
+				CAA6598F98FDA8DA0BB5100C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amplify-datastore-storage";
+			productName = "amplify-datastore-storage";
+			productReference = 9E11921A24DDFC2900F47868 /* amplify-datastore-storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E11921224DDFC2900F47868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9E11921924DDFC2900F47868 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 9E11921524DDFC2900F47868 /* Build configuration list for PBXProject "amplify-datastore-storage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E11921124DDFC2900F47868;
+			productRefGroup = 9E11921B24DDFC2900F47868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E11921924DDFC2900F47868 /* amplify-datastore-storage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E11921824DDFC2900F47868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3F460D24E47C4C005DBED0 /* awsconfiguration.json in Resources */,
+				9E11922524DDFC2A00F47868 /* Preview Assets.xcassets in Resources */,
+				9E3F460C24E47C4C005DBED0 /* amplifyconfiguration.json in Resources */,
+				9E11922224DDFC2A00F47868 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97F39171C1811C475F4C27A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amplify-datastore-storage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA6598F98FDA8DA0BB5100C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-datastore-storage/Pods-amplify-datastore-storage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-datastore-storage/Pods-amplify-datastore-storage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amplify-datastore-storage/Pods-amplify-datastore-storage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E11921624DDFC2900F47868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3F461A24E47FCF005DBED0 /* GalleryView.swift in Sources */,
+				9E11922024DDFC2900F47868 /* ContentView.swift in Sources */,
+				9E3F461424E47DBA005DBED0 /* AmplifyModels.swift in Sources */,
+				9E3F461824E47F94005DBED0 /* CameraView.swift in Sources */,
+				9E3F461524E47DBA005DBED0 /* Post+Schema.swift in Sources */,
+				9E3F461C24E4817C005DBED0 /* ImagePicker.swift in Sources */,
+				9E11921E24DDFC2900F47868 /* amplify_datastore_storageApp.swift in Sources */,
+				9E3F461624E47DBA005DBED0 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E11922724DDFC2A00F47868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E11922824DDFC2A00F47868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E11922A24DDFC2A00F47868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816320D11130C94CB3C39F46 /* Pods-amplify-datastore-storage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-datastore-storage/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-datastore-storage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-datastore-storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E11922B24DDFC2A00F47868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CFFBE0FACD4817BCDDE20B /* Pods-amplify-datastore-storage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-datastore-storage/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-datastore-storage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-datastore-storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E11921524DDFC2900F47868 /* Build configuration list for PBXProject "amplify-datastore-storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E11922724DDFC2A00F47868 /* Debug */,
+				9E11922824DDFC2A00F47868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E11922924DDFC2A00F47868 /* Build configuration list for PBXNativeTarget "amplify-datastore-storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E11922A24DDFC2A00F47868 /* Debug */,
+				9E11922B24DDFC2A00F47868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E11921224DDFC2900F47868 /* Project object */;
+}
