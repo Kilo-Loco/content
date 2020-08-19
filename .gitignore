@@ -21,6 +21,7 @@ DerivedData/
 Packages/
 Package.pins
 Package.resolved
+Pods/
 .swiftpm
 .build/
 *.xcworkspace
