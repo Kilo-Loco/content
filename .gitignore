@@ -68,3 +68,6 @@ pubspec.lock
 *.js.map
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Machine
+*.icloud
