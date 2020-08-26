@@ -6,7 +6,18 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7335113e-40f1-482b-ae33-16099fe309d6" name="Default Changelist" comment="" />
+    <list default="true" id="7335113e-40f1-482b-ae33-16099fe309d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/java/com/kiloloco/recyclerview_navigation_with_fragments/DetailsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/java/com/kiloloco/recyclerview_navigation_with_fragments/DetailsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/java/com/kiloloco/recyclerview_navigation_with_fragments/ItemFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/java/com/kiloloco/recyclerview_navigation_with_fragments/MyItemRecyclerViewAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/java/com/kiloloco/recyclerview_navigation_with_fragments/dummy/DummyContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/res/layout/details_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/res/layout/fragment_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/res/layout/fragment_item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amplify-auth-web-ui-android/recyclerviewnavigationwithfragments/app/src/main/res/values/dimens.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
