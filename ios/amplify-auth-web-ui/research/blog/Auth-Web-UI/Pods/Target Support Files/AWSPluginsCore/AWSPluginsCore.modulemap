@@ -1,6 +1,0 @@
-framework module AWSPluginsCore {
-  umbrella header "AWSPluginsCore-umbrella.h"
-
-  export *
-  module * { export * }
-}
