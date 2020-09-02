@@ -5,27 +5,28 @@
 //  Created by Kyle Lee on 8/30/20.
 //
 
+import Combine
 import UIKit
-
-protocol AnimalCellDelegate: AnyObject {
-    func shouldShowEmoji(for animal: Animal)
-}
 
 class AnimalCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
     
-    weak var delegate: AnimalCellDelegate?
-    var shouldMakeNoiseForAnimal: ((Animal) -> Void)?
+    enum Action {
+        case showEmoji(Animal)
+        case makeNoise(Animal)
+    }
+    
+    var actionPublisher = PassthroughSubject<Action, Never>()
     
     private var animal: Animal!
     
     @IBAction func didTapShowEmojiButton() {
-        delegate?.shouldShowEmoji(for: animal)
+        actionPublisher.send(.showEmoji(animal))
     }
     
     @IBAction func didTapMakeNoiseButton() {
-        shouldMakeNoiseForAnimal?(animal)
+        actionPublisher.send(.makeNoise(animal))
     }
     
     func populate(with animal: Animal) {
