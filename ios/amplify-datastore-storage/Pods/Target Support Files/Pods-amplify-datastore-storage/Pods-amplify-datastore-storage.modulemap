@@ -1,6 +1,0 @@
-framework module Pods_amplify_datastore_storage {
-  umbrella header "Pods-amplify-datastore-storage-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VKv-ut-4NX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animals-->
+        <scene sceneID="caP-Mk-abh">
+            <objects>
+                <tableViewController id="2yc-3Q-hNk" customClass="AnimalsViewController" customModule="migrating_to_combine" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DFh-Y6-VMt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimalCell" rowHeight="56" id="cgX-Lu-Jnf" customClass="AnimalCell" customModule="migrating_to_combine" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="56"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cgX-Lu-Jnf" id="RDJ-Ml-99h">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3LC-Ku-HMn">
+                                            <rect key="frame" x="20" y="11" width="374" height="34"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xe-im-8Hf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="114" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAp-Bs-Xnp">
+                                                    <rect key="frame" x="130" y="0.0" width="114" height="34"/>
+                                                    <state key="normal" title="Show Emoji"/>
+                                                    <connections>
+                                                        <action selector="didTapShowEmojiButton" destination="cgX-Lu-Jnf" eventType="touchUpInside" id="f4l-M6-WXl"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BD-Pu-y1n">
+                                                    <rect key="frame" x="260" y="0.0" width="114" height="34"/>
+                                                    <state key="normal" title="Make Noise"/>
+                                                    <connections>
+                                                        <action selector="didTapMakeNoiseButton" destination="cgX-Lu-Jnf" eventType="touchUpInside" id="xOo-g0-Ntk"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="3LC-Ku-HMn" secondAttribute="bottom" id="3EI-KG-vWb"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="3LC-Ku-HMn" secondAttribute="trailing" id="YO5-vL-liH"/>
+                                        <constraint firstItem="3LC-Ku-HMn" firstAttribute="top" secondItem="RDJ-Ml-99h" secondAttribute="topMargin" id="jWB-Px-iDF"/>
+                                        <constraint firstItem="3LC-Ku-HMn" firstAttribute="leading" secondItem="RDJ-Ml-99h" secondAttribute="leadingMargin" id="oQ8-D6-gHQ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="1xe-im-8Hf" id="R3z-IT-5OP"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2yc-3Q-hNk" id="QkQ-rE-GUN"/>
+                            <outlet property="delegate" destination="2yc-3Q-hNk" id="xmT-Ee-RtG"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Animals" id="pIW-gu-CiB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WlA-zG-cv3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823.1884057971015" y="12.723214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9FG-R5-Z3q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VKv-ut-4NX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="vSf-FO-LBY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2yc-3Q-hNk" kind="relationship" relationship="rootViewController" id="5PY-Ib-KRJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M4B-Xh-WT7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-86.956521739130437" y="12.723214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
