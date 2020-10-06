@@ -5,9 +5,9 @@
 //  Created by Kilo Loco on 10/6/20.
 //
 
-import Foundation
+import SwiftUI
 
-struct Animal {
+struct Animal: Identifiable {
     let id: Int
     let emoji: String
     let name: String
