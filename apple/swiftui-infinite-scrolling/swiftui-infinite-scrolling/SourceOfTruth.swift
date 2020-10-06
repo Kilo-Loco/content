@@ -12,6 +12,9 @@ class SourceOfTruth: ObservableObject {
     @Published var animals = [Animal]()
     
     func getAnimals(at index: Int) {
+        
+        print("getting", index)
+        
         switch index {
         case 0:
             animals.append(contentsOf: [
