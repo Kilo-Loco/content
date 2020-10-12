@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCFBE382534FADE0080A788 /* amplify_api_realtime_chatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFBE372534FADE0080A788 /* amplify_api_realtime_chatApp.swift */; };
+		7CCFBE3C2534FAE10080A788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFBE3B2534FAE10080A788 /* Assets.xcassets */; };
+		7CCFBE3F2534FAE10080A788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFBE3E2534FAE10080A788 /* Preview Assets.xcassets */; };
+		7CCFBE492534FB320080A788 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFBE482534FB320080A788 /* MessagesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CCFBE342534FADE0080A788 /* amplify-api-realtime-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-api-realtime-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCFBE372534FADE0080A788 /* amplify_api_realtime_chatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplify_api_realtime_chatApp.swift; sourceTree = "<group>"; };
+		7CCFBE3B2534FAE10080A788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCFBE3E2534FAE10080A788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CCFBE402534FAE10080A788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCFBE482534FB320080A788 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCFBE312534FADE0080A788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCFBE2B2534FADE0080A788 = {
+			isa = PBXGroup;
+			children = (
+				7CCFBE362534FADE0080A788 /* amplify-api-realtime-chat */,
+				7CCFBE352534FADE0080A788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCFBE352534FADE0080A788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFBE342534FADE0080A788 /* amplify-api-realtime-chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCFBE362534FADE0080A788 /* amplify-api-realtime-chat */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFBE372534FADE0080A788 /* amplify_api_realtime_chatApp.swift */,
+				7CCFBE482534FB320080A788 /* MessagesView.swift */,
+				7CCFBE3B2534FAE10080A788 /* Assets.xcassets */,
+				7CCFBE402534FAE10080A788 /* Info.plist */,
+				7CCFBE3D2534FAE10080A788 /* Preview Content */,
+			);
+			path = "amplify-api-realtime-chat";
+			sourceTree = "<group>";
+		};
+		7CCFBE3D2534FAE10080A788 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFBE3E2534FAE10080A788 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCFBE332534FADE0080A788 /* amplify-api-realtime-chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCFBE432534FAE10080A788 /* Build configuration list for PBXNativeTarget "amplify-api-realtime-chat" */;
+			buildPhases = (
+				7CCFBE302534FADE0080A788 /* Sources */,
+				7CCFBE312534FADE0080A788 /* Frameworks */,
+				7CCFBE322534FADE0080A788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amplify-api-realtime-chat";
+			productName = "amplify-api-realtime-chat";
+			productReference = 7CCFBE342534FADE0080A788 /* amplify-api-realtime-chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCFBE2C2534FADE0080A788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7CCFBE332534FADE0080A788 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7CCFBE2F2534FADE0080A788 /* Build configuration list for PBXProject "amplify-api-realtime-chat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCFBE2B2534FADE0080A788;
+			productRefGroup = 7CCFBE352534FADE0080A788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCFBE332534FADE0080A788 /* amplify-api-realtime-chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCFBE322534FADE0080A788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCFBE3F2534FAE10080A788 /* Preview Assets.xcassets in Resources */,
+				7CCFBE3C2534FAE10080A788 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCFBE302534FADE0080A788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCFBE492534FB320080A788 /* MessagesView.swift in Sources */,
+				7CCFBE382534FADE0080A788 /* amplify_api_realtime_chatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CCFBE412534FAE10080A788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCFBE422534FAE10080A788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCFBE442534FAE10080A788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-api-realtime-chat/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-api-realtime-chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-api-realtime-chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCFBE452534FAE10080A788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-api-realtime-chat/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-api-realtime-chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-api-realtime-chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCFBE2F2534FADE0080A788 /* Build configuration list for PBXProject "amplify-api-realtime-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCFBE412534FAE10080A788 /* Debug */,
+				7CCFBE422534FAE10080A788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCFBE432534FAE10080A788 /* Build configuration list for PBXNativeTarget "amplify-api-realtime-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCFBE442534FAE10080A788 /* Debug */,
+				7CCFBE452534FAE10080A788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCFBE2C2534FADE0080A788 /* Project object */;
+}
