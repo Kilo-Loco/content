@@ -64,13 +64,13 @@
 		7C8BB4312535EEC000E29F42 /* migrating-to-combine */ = {
 			isa = PBXGroup;
 			children = (
+				7C8BB43B2535EEC100E29F42 /* Assets.xcassets */,
+				7C8BB4402535EEC100E29F42 /* Info.plist */,
+				7C8BB43D2535EEC100E29F42 /* LaunchScreen.storyboard */,
+				7C8BB4382535EEC000E29F42 /* Main.storyboard */,
 				7C8BB4322535EEC000E29F42 /* AppDelegate.swift */,
 				7C8BB4342535EEC000E29F42 /* SceneDelegate.swift */,
 				7C8BB4362535EEC000E29F42 /* ViewController.swift */,
-				7C8BB4382535EEC000E29F42 /* Main.storyboard */,
-				7C8BB43B2535EEC100E29F42 /* Assets.xcassets */,
-				7C8BB43D2535EEC100E29F42 /* LaunchScreen.storyboard */,
-				7C8BB4402535EEC100E29F42 /* Info.plist */,
 				7C8BB4472535EF8300E29F42 /* NetworkingService.swift */,
 				7C8BB44A2535EFA000E29F42 /* Animal.swift */,
 				7C8BB44D2535EFCA00E29F42 /* AlertService.swift */,
