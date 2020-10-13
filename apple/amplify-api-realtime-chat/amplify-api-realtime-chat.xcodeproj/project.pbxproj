@@ -3,23 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246065B6F584861315FB21CD /* Pods_amplify_api_realtime_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB68DE3A142716456792B84 /* Pods_amplify_api_realtime_chat.framework */; };
 		7CCFBE382534FADE0080A788 /* amplify_api_realtime_chatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFBE372534FADE0080A788 /* amplify_api_realtime_chatApp.swift */; };
 		7CCFBE3C2534FAE10080A788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFBE3B2534FAE10080A788 /* Assets.xcassets */; };
 		7CCFBE3F2534FAE10080A788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFBE3E2534FAE10080A788 /* Preview Assets.xcassets */; };
 		7CCFBE492534FB320080A788 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFBE482534FB320080A788 /* MessagesView.swift */; };
+		7CF30F4C253506D40003AAED /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CF30F4A253506D30003AAED /* amplifyconfiguration.json */; };
+		7CF30F4D253506D40003AAED /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CF30F4B253506D40003AAED /* awsconfiguration.json */; };
+		7CF30F53253506E50003AAED /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30F50253506E50003AAED /* AmplifyModels.swift */; };
+		7CF30F54253506E50003AAED /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30F51253506E50003AAED /* Message.swift */; };
+		7CF30F55253506E50003AAED /* Message+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30F52253506E50003AAED /* Message+Schema.swift */; };
+		7CF30F58253508B60003AAED /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30F57253508B60003AAED /* MessageRow.swift */; };
+		7CF30F5B25350BED0003AAED /* SourceOfTruth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30F5A25350BED0003AAED /* SourceOfTruth.swift */; };
+		7CF30F5E25350CAE0003AAED /* Message+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30F5D25350CAE0003AAED /* Message+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DB68DE3A142716456792B84 /* Pods_amplify_api_realtime_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amplify_api_realtime_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCFBE342534FADE0080A788 /* amplify-api-realtime-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-api-realtime-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCFBE372534FADE0080A788 /* amplify_api_realtime_chatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplify_api_realtime_chatApp.swift; sourceTree = "<group>"; };
 		7CCFBE3B2534FAE10080A788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CCFBE3E2534FAE10080A788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CCFBE402534FAE10080A788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CCFBE482534FB320080A788 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		7CF30F4A253506D30003AAED /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		7CF30F4B253506D40003AAED /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		7CF30F50253506E50003AAED /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		7CF30F51253506E50003AAED /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7CF30F52253506E50003AAED /* Message+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+Schema.swift"; sourceTree = "<group>"; };
+		7CF30F57253508B60003AAED /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		7CF30F5A25350BED0003AAED /* SourceOfTruth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceOfTruth.swift; sourceTree = "<group>"; };
+		7CF30F5D25350CAE0003AAED /* Message+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+Extensions.swift"; sourceTree = "<group>"; };
+		C02A625A58098EB65FC946A3 /* Pods-amplify-api-realtime-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-api-realtime-chat.release.xcconfig"; path = "Target Support Files/Pods-amplify-api-realtime-chat/Pods-amplify-api-realtime-chat.release.xcconfig"; sourceTree = "<group>"; };
+		E42FBCCFDB1E2C7E54992243 /* Pods-amplify-api-realtime-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-api-realtime-chat.debug.xcconfig"; path = "Target Support Files/Pods-amplify-api-realtime-chat/Pods-amplify-api-realtime-chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246065B6F584861315FB21CD /* Pods_amplify_api_realtime_chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19771D030379208867B1E705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB68DE3A142716456792B84 /* Pods_amplify_api_realtime_chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CCFBE2B2534FADE0080A788 = {
 			isa = PBXGroup;
 			children = (
 				7CCFBE362534FADE0080A788 /* amplify-api-realtime-chat */,
 				7CCFBE352534FADE0080A788 /* Products */,
+				8694A100C9B8D0FBB80591A2 /* Pods */,
+				19771D030379208867B1E705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +83,16 @@
 		7CCFBE362534FADE0080A788 /* amplify-api-realtime-chat */ = {
 			isa = PBXGroup;
 			children = (
+				7CF30F4F253506E50003AAED /* models */,
+				7CF30F4A253506D30003AAED /* amplifyconfiguration.json */,
+				7CF30F4B253506D40003AAED /* awsconfiguration.json */,
 				7CCFBE372534FADE0080A788 /* amplify_api_realtime_chatApp.swift */,
 				7CCFBE482534FB320080A788 /* MessagesView.swift */,
 				7CCFBE3B2534FAE10080A788 /* Assets.xcassets */,
 				7CCFBE402534FAE10080A788 /* Info.plist */,
 				7CCFBE3D2534FAE10080A788 /* Preview Content */,
+				7CF30F5A25350BED0003AAED /* SourceOfTruth.swift */,
+				7CF30F5D25350CAE0003AAED /* Message+Extensions.swift */,
 			);
 			path = "amplify-api-realtime-chat";
 			sourceTree = "<group>";
@@ -69,6 +105,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7CF30F4F253506E50003AAED /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7CF30F50253506E50003AAED /* AmplifyModels.swift */,
+				7CF30F51253506E50003AAED /* Message.swift */,
+				7CF30F52253506E50003AAED /* Message+Schema.swift */,
+				7CF30F57253508B60003AAED /* MessageRow.swift */,
+			);
+			name = models;
+			path = amplify/generated/models;
+			sourceTree = SOURCE_ROOT;
+		};
+		8694A100C9B8D0FBB80591A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42FBCCFDB1E2C7E54992243 /* Pods-amplify-api-realtime-chat.debug.xcconfig */,
+				C02A625A58098EB65FC946A3 /* Pods-amplify-api-realtime-chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CCFBE432534FAE10080A788 /* Build configuration list for PBXNativeTarget "amplify-api-realtime-chat" */;
 			buildPhases = (
+				4C7099401323DB531DE0BDF6 /* [CP] Check Pods Manifest.lock */,
 				7CCFBE302534FADE0080A788 /* Sources */,
 				7CCFBE312534FADE0080A788 /* Frameworks */,
 				7CCFBE322534FADE0080A788 /* Resources */,
+				150D54596C6E95F308B7BBF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +185,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF30F4D253506D40003AAED /* awsconfiguration.json in Resources */,
 				7CCFBE3F2534FAE10080A788 /* Preview Assets.xcassets in Resources */,
+				7CF30F4C253506D40003AAED /* amplifyconfiguration.json in Resources */,
 				7CCFBE3C2534FAE10080A788 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		150D54596C6E95F308B7BBF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-api-realtime-chat/Pods-amplify-api-realtime-chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-api-realtime-chat/Pods-amplify-api-realtime-chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amplify-api-realtime-chat/Pods-amplify-api-realtime-chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C7099401323DB531DE0BDF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amplify-api-realtime-chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CCFBE302534FADE0080A788 /* Sources */ = {
@@ -139,6 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CCFBE492534FB320080A788 /* MessagesView.swift in Sources */,
+				7CF30F54253506E50003AAED /* Message.swift in Sources */,
+				7CF30F58253508B60003AAED /* MessageRow.swift in Sources */,
+				7CF30F5E25350CAE0003AAED /* Message+Extensions.swift in Sources */,
+				7CF30F55253506E50003AAED /* Message+Schema.swift in Sources */,
+				7CF30F53253506E50003AAED /* AmplifyModels.swift in Sources */,
+				7CF30F5B25350BED0003AAED /* SourceOfTruth.swift in Sources */,
 				7CCFBE382534FADE0080A788 /* amplify_api_realtime_chatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +373,7 @@
 		};
 		7CCFBE442534FAE10080A788 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42FBCCFDB1E2C7E54992243 /* Pods-amplify-api-realtime-chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +396,7 @@
 		};
 		7CCFBE452534FAE10080A788 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02A625A58098EB65FC946A3 /* Pods-amplify-api-realtime-chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
