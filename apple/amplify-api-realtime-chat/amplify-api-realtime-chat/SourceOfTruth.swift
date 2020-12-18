@@ -12,6 +12,7 @@ class SourceOfTruth: ObservableObject {
     @Published var messages = [Message]()
     
     func send(_ message: Message) {
+        
         Amplify.API.mutate(request: .create(message)) { mutationResult in
             switch mutationResult {
             case .success(let creationResult):
