@@ -1,0 +1,5 @@
+type Note @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  body: String!
+  creationDate: AWSDateTime!
+}

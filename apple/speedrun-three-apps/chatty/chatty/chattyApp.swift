@@ -1,6 +1,6 @@
 //
-//  quick_noteApp.swift
-//  quick-note
+//  chattyApp.swift
+//  chatty
 //
 //  Created by Kilo Loco on 12/18/20.
 //
@@ -10,7 +10,7 @@ import AmplifyPlugins
 import SwiftUI
 
 @main
-struct quick_noteApp: App {
+struct chattyApp: App {
     
     public init() {
         let dataStorePlugin = AWSDataStorePlugin(modelRegistration: AmplifyModels())
@@ -26,9 +26,21 @@ struct quick_noteApp: App {
         }
     }
     
+    
+    @State var user: User?
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            if let currentUser = user {
+                MessagesView(currentUser: currentUser)
+                
+                
+            } else {
+                ContentView { user in
+                    self.user = user
+                }
+            }
         }
     }
 }

@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39D5012E6A9443DFBF3E49F7 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D437046BA0549148019E3DD /* amplifyconfiguration.json */; };
 		7C50C492258D2AE900E1A1E1 /* quick_noteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50C491258D2AE900E1A1E1 /* quick_noteApp.swift */; };
 		7C50C494258D2AE900E1A1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50C493258D2AE900E1A1E1 /* ContentView.swift */; };
 		7C50C496258D2AF400E1A1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C495258D2AF400E1A1E1 /* Assets.xcassets */; };
 		7C50C499258D2AF400E1A1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50C498258D2AF400E1A1E1 /* Preview Assets.xcassets */; };
+		7C66FC9C258D349D00EA6EDA /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66FC99258D349D00EA6EDA /* Note.swift */; };
+		7C66FC9D258D349D00EA6EDA /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66FC9A258D349D00EA6EDA /* Note+Schema.swift */; };
+		7C66FC9E258D349D00EA6EDA /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66FC9B258D349D00EA6EDA /* AmplifyModels.swift */; };
+		7C66FCA2258D353200EA6EDA /* Note+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66FCA1258D353200EA6EDA /* Note+Extensions.swift */; };
+		82068D9B0D154279A1009F5E /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A7FA199BDF274E0EBFB98148 /* awsconfiguration.json */; };
+		8EADCAD0CA00869DFCC45D5A /* Pods_quick_note.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE44D9ECC0941F98B13DB2B9 /* Pods_quick_note.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F06D77FD058BC8A293FFFC7 /* Pods-quick-note.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-note.debug.xcconfig"; path = "Target Support Files/Pods-quick-note/Pods-quick-note.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6801F252814538951A80A2 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		6D437046BA0549148019E3DD /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		7C50C48E258D2AE900E1A1E1 /* quick-note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quick-note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C50C491258D2AE900E1A1E1 /* quick_noteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quick_noteApp.swift; sourceTree = "<group>"; };
 		7C50C493258D2AE900E1A1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C50C495258D2AF400E1A1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C50C498258D2AF400E1A1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C50C49A258D2AF400E1A1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C66FC99258D349D00EA6EDA /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7C66FC9A258D349D00EA6EDA /* Note+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+Schema.swift"; sourceTree = "<group>"; };
+		7C66FC9B258D349D00EA6EDA /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		7C66FCA1258D353200EA6EDA /* Note+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+Extensions.swift"; sourceTree = "<group>"; };
+		A7FA199BDF274E0EBFB98148 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		BE44D9ECC0941F98B13DB2B9 /* Pods_quick_note.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_note.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDCD6F0180128363D2AF199 /* Pods-quick-note.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-note.release.xcconfig"; path = "Target Support Files/Pods-quick-note/Pods-quick-note.release.xcconfig"; sourceTree = "<group>"; };
+		E1975BFBC2F442E69A9B948B /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EADCAD0CA00869DFCC45D5A /* Pods_quick_note.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C26DBD7785AFF1FBC7E7BE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE44D9ECC0941F98B13DB2B9 /* Pods_quick_note.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C50C485258D2AE900E1A1E1 = {
 			isa = PBXGroup;
 			children = (
+				A6145B67FA844D61BA6AA06A /* AmplifyConfig */,
 				7C50C490258D2AE900E1A1E1 /* quick-note */,
 				7C50C48F258D2AE900E1A1E1 /* Products */,
+				EE43016E328CFCA280B462E5 /* Pods */,
+				5C26DBD7785AFF1FBC7E7BE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +82,15 @@
 		7C50C490258D2AE900E1A1E1 /* quick-note */ = {
 			isa = PBXGroup;
 			children = (
+				7C66FC9B258D349D00EA6EDA /* AmplifyModels.swift */,
+				7C66FC99258D349D00EA6EDA /* Note.swift */,
+				7C66FC9A258D349D00EA6EDA /* Note+Schema.swift */,
 				7C50C491258D2AE900E1A1E1 /* quick_noteApp.swift */,
 				7C50C493258D2AE900E1A1E1 /* ContentView.swift */,
 				7C50C495258D2AF400E1A1E1 /* Assets.xcassets */,
 				7C50C49A258D2AF400E1A1E1 /* Info.plist */,
 				7C50C497258D2AF400E1A1E1 /* Preview Content */,
+				7C66FCA1258D353200EA6EDA /* Note+Extensions.swift */,
 			);
 			path = "quick-note";
 			sourceTree = "<group>";
@@ -69,6 +103,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A6145B67FA844D61BA6AA06A /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				E1975BFBC2F442E69A9B948B /* amplifytools.xcconfig */,
+				6D437046BA0549148019E3DD /* amplifyconfiguration.json */,
+				A7FA199BDF274E0EBFB98148 /* awsconfiguration.json */,
+				6C6801F252814538951A80A2 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		EE43016E328CFCA280B462E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F06D77FD058BC8A293FFFC7 /* Pods-quick-note.debug.xcconfig */,
+				BEDCD6F0180128363D2AF199 /* Pods-quick-note.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C50C49D258D2AF400E1A1E1 /* Build configuration list for PBXNativeTarget "quick-note" */;
 			buildPhases = (
+				147BAB1311961C5BE514CCE0 /* [CP] Check Pods Manifest.lock */,
 				7C50C48A258D2AE900E1A1E1 /* Sources */,
 				7C50C48B258D2AE900E1A1E1 /* Frameworks */,
 				7C50C48C258D2AE900E1A1E1 /* Resources */,
+				06F3BC328A851BE8D0992A70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +185,66 @@
 			files = (
 				7C50C499258D2AF400E1A1E1 /* Preview Assets.xcassets in Resources */,
 				7C50C496258D2AF400E1A1E1 /* Assets.xcassets in Resources */,
+				39D5012E6A9443DFBF3E49F7 /* amplifyconfiguration.json in Resources */,
+				82068D9B0D154279A1009F5E /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F3BC328A851BE8D0992A70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-note/Pods-quick-note-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-note/Pods-quick-note-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quick-note/Pods-quick-note-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		147BAB1311961C5BE514CCE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-note-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C50C48A258D2AE900E1A1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C66FC9E258D349D00EA6EDA /* AmplifyModels.swift in Sources */,
+				7C66FCA2258D353200EA6EDA /* Note+Extensions.swift in Sources */,
 				7C50C494258D2AE900E1A1E1 /* ContentView.swift in Sources */,
 				7C50C492258D2AE900E1A1E1 /* quick_noteApp.swift in Sources */,
+				7C66FC9D258D349D00EA6EDA /* Note+Schema.swift in Sources */,
+				7C66FC9C258D349D00EA6EDA /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +369,7 @@
 		};
 		7C50C49E258D2AF400E1A1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F06D77FD058BC8A293FFFC7 /* Pods-quick-note.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +392,7 @@
 		};
 		7C50C49F258D2AF400E1A1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDCD6F0180128363D2AF199 /* Pods-quick-note.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

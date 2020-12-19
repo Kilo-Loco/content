@@ -1,0 +1,74 @@
+PODS:
+  - Amplify (1.5.1):
+    - Amplify/Default (= 1.5.1)
+  - Amplify/Default (1.5.1)
+  - AmplifyPlugins/AWSAPIPlugin (1.5.1):
+    - AppSyncRealTimeClient (~> 1.4.0)
+    - AWSCore (~> 2.20.0)
+    - AWSPluginsCore (= 1.5.1)
+    - ReachabilitySwift (~> 5.0.0)
+  - AmplifyPlugins/AWSDataStorePlugin (1.5.1):
+    - AWSCore (~> 2.20.0)
+    - AWSPluginsCore (= 1.5.1)
+    - SQLite.swift (~> 0.12.0)
+  - AppSyncRealTimeClient (1.4.2):
+    - Starscream (~> 3.1.0)
+  - AWSAuthCore (2.20.0):
+    - AWSCore (= 2.20.0)
+  - AWSCognitoIdentityProvider (2.20.0):
+    - AWSCognitoIdentityProviderASF (= 2.20.0)
+    - AWSCore (= 2.20.0)
+  - AWSCognitoIdentityProviderASF (2.20.0)
+  - AWSCore (2.20.0)
+  - AWSMobileClient (2.20.0):
+    - AWSAuthCore (= 2.20.0)
+    - AWSCognitoIdentityProvider (= 2.20.0)
+    - AWSCognitoIdentityProviderASF (= 2.20.0)
+    - AWSCore (= 2.20.0)
+  - AWSPluginsCore (1.5.1):
+    - Amplify (= 1.5.1)
+    - AWSCore (~> 2.20.0)
+    - AWSMobileClient (~> 2.20.0)
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - Amplify
+  - AmplifyPlugins/AWSAPIPlugin
+  - AmplifyPlugins/AWSDataStorePlugin
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - ReachabilitySwift
+    - SQLite.swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: c55f7bf2c6ea68891d95579882172c1256f301fc
+  AmplifyPlugins: 78d2e39e1d5db18ae50c215063790f300607d312
+  AppSyncRealTimeClient: 7fb160294d067b6c0c4b3c4ab91e953fd4cfba30
+  AWSAuthCore: 6a5f0fdbbd65d917deab61e2f5035afecafaa687
+  AWSCognitoIdentityProvider: f9031fc36af73a1e6a3c7476cbd536c1d4f7591c
+  AWSCognitoIdentityProviderASF: c126563dd240709a5acf2c15910ea4c872c65df3
+  AWSCore: e8748f1d2e97874ff5638fe7c3c31431ad223b4a
+  AWSMobileClient: f98f4d3eb4d0f893a128b5546a31fd2cbc88e2ef
+  AWSPluginsCore: 3afe92313f5be7f002a48007e6645b5ab58e05a7
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: 937232c3145e7bf6a666f7a963a3ac095f90617a
+
+COCOAPODS: 1.9.3
