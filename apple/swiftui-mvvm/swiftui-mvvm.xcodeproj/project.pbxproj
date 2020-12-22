@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7CBAA642259296E200D312D8 /* swiftui_mvvmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA641259296E200D312D8 /* swiftui_mvvmApp.swift */; };
-		7CBAA644259296E200D312D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA643259296E200D312D8 /* ContentView.swift */; };
 		7CBAA646259296E400D312D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBAA645259296E400D312D8 /* Assets.xcassets */; };
 		7CBAA649259296E400D312D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBAA648259296E400D312D8 /* Preview Assets.xcassets */; };
 		7CBAA6BA25929BF600D312D8 /* swiftui_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6B925929BF600D312D8 /* swiftui_mvvmTests.swift */; };
 		7CBAA6C425929D4100D312D8 /* AppDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6C325929D4100D312D8 /* AppDataService.swift */; };
 		7CBAA6C825929D6400D312D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6C725929D6400D312D8 /* User.swift */; };
+		7CBAA6CE25929E0D00D312D8 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6CD25929E0D00D312D8 /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		7CBAA63E259296E200D312D8 /* swiftui-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBAA641259296E200D312D8 /* swiftui_mvvmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_mvvmApp.swift; sourceTree = "<group>"; };
-		7CBAA643259296E200D312D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CBAA645259296E400D312D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CBAA648259296E400D312D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CBAA64A259296E400D312D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		7CBAA6BB25929BF600D312D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBAA6C325929D4100D312D8 /* AppDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataService.swift; sourceTree = "<group>"; };
 		7CBAA6C725929D6400D312D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CBAA6CD25929E0D00D312D8 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +79,11 @@
 		7CBAA640259296E200D312D8 /* swiftui-mvvm */ = {
 			isa = PBXGroup;
 			children = (
-				7CBAA641259296E200D312D8 /* swiftui_mvvmApp.swift */,
-				7CBAA643259296E200D312D8 /* ContentView.swift */,
+				7CBAA647259296E400D312D8 /* Preview Content */,
 				7CBAA645259296E400D312D8 /* Assets.xcassets */,
 				7CBAA64A259296E400D312D8 /* Info.plist */,
-				7CBAA647259296E400D312D8 /* Preview Content */,
+				7CBAA641259296E200D312D8 /* swiftui_mvvmApp.swift */,
+				7CBAA6CD25929E0D00D312D8 /* UsersView.swift */,
 				7CBAA6C325929D4100D312D8 /* AppDataService.swift */,
 				7CBAA6C725929D6400D312D8 /* User.swift */,
 			);
@@ -208,8 +208,8 @@
 			files = (
 				7CBAA6C825929D6400D312D8 /* User.swift in Sources */,
 				7CBAA6C425929D4100D312D8 /* AppDataService.swift in Sources */,
-				7CBAA644259296E200D312D8 /* ContentView.swift in Sources */,
 				7CBAA642259296E200D312D8 /* swiftui_mvvmApp.swift in Sources */,
+				7CBAA6CE25929E0D00D312D8 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
