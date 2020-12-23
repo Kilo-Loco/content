@@ -14,6 +14,9 @@
 		7CBAA6C425929D4100D312D8 /* AppDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6C325929D4100D312D8 /* AppDataService.swift */; };
 		7CBAA6C825929D6400D312D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6C725929D6400D312D8 /* User.swift */; };
 		7CBAA6CE25929E0D00D312D8 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6CD25929E0D00D312D8 /* UsersView.swift */; };
+		7CBAA6D32592A3E100D312D8 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6CD25929E0D00D312D8 /* UsersView.swift */; };
+		7CBAA6D62592A42E00D312D8 /* AppDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6C325929D4100D312D8 /* AppDataService.swift */; };
+		7CBAA6D92592A49100D312D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAA6C725929D6400D312D8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,7 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBAA6D92592A49100D312D8 /* User.swift in Sources */,
+				7CBAA6D62592A42E00D312D8 /* AppDataService.swift in Sources */,
 				7CBAA6BA25929BF600D312D8 /* swiftui_mvvmTests.swift in Sources */,
+				7CBAA6D32592A3E100D312D8 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
