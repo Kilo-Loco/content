@@ -41,7 +41,7 @@ extension ContentView {
         @Published var text = ""
         
         func addShow() {
-            let path = ""
+            let path = "https://sgq6hki0ul.execute-api.us-west-2.amazonaws.com/dev"
             
             var request = URLRequest(url: URL(string: path)!)
             request.httpMethod = "POST"
