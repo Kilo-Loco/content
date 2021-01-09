@@ -1,0 +1,13 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "flutter datastore crud ops",
+  "version": "3.0",
+  "frontend": "flutter",
+  "flutter": {
+    "config": {
+      "ResDir": "./lib/"
+    }
+  }
+}

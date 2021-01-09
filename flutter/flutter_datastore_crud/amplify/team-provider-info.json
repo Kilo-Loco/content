@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flutterdatastorecrud-staging-13945-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-flutterdatastorecrud-staging-13945-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-flutterdatastorecrud-staging-13945-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-flutterdatastorecrud-staging-13945-deployment",
+      "UnauthRoleName": "amplify-flutterdatastorecrud-staging-13945-unauthRole",
+      "StackName": "amplify-flutterdatastorecrud-staging-13945",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-flutterdatastorecrud-staging-13945/0f3aa9b0-4fc0-11eb-a644-02677f4e2fd9",
+      "AmplifyAppId": "d3o0ltdanph223"
+    }
+  }
+}

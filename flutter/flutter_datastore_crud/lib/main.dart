@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'amplifyconfiguration.dart';
+import 'models/ModelProvider.dart';
+import 'models/SexyObject.dart';
+import 'package:amplify_core/amplify_core.dart';
+import 'package:amplify_datastore/amplify_datastore.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +15,26 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  final _amplify = Amplify();
+
+  final _sexyId = "sexy";
+
+  @override
+  void initState() {
+    super.initState();
+    _configureAmplify();
+  }
+
+  void _configureAmplify() {
+    final provider = ModelProvider();
+    final dataStorePlugin = AmplifyDataStore(modelProvider: provider);
+
+    _amplify.addPlugin(dataStorePlugins: [dataStorePlugin]);
+    _amplify.configure(amplifyconfig);
+
+    print('Amplify configured');
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -57,13 +82,74 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  void create() {}
+  void create() async {
+    final sexyObject = SexyObject(
+        id: _sexyId, value: "Dont you wish your object was hot like me?");
 
-  void readAll() {}
+    try {
+      await Amplify.DataStore.save(sexyObject);
 
-  void readById() {}
+      print('Saved ${sexyObject.toString()}');
+    } catch (e) {
+      print(e);
+    }
+  }
 
-  void update() {}
+  void readAll() async {
+    try {
+      final sexyObjects = await Amplify.DataStore.query(SexyObject.classType);
 
-  void delete() {}
+      print(sexyObjects.toString());
+    } catch (e) {
+      print(e);
+    }
+  }
+
+  Future<SexyObject> readById() async {
+    try {
+      final sexyObjects = await Amplify.DataStore.query(SexyObject.classType,
+          where: SexyObject.ID.eq(_sexyId));
+
+      if (sexyObjects.isEmpty) {
+        print("No objects with ID: $_sexyId");
+        return null;
+      }
+
+      final sexyObject = sexyObjects.first;
+
+      print(sexyObject.toString());
+
+      return sexyObject;
+    } catch (e) {
+      print(e);
+      throw e;
+    }
+  }
+
+  void update() async {
+    try {
+      final sexyObject = await readById();
+
+      final updatedObject =
+          sexyObject.copyWith(value: sexyObject.value + ' [UPDATED]');
+
+      await Amplify.DataStore.save(updatedObject);
+
+      print('Updated object to ${updatedObject.toString()}');
+    } catch (e) {
+      print(e);
+    }
+  }
+
+  void delete() async {
+    try {
+      final myObject = await readById();
+
+      await Amplify.DataStore.delete(myObject);
+
+      print('Deleted object with ID: ${myObject.id}');
+    } catch (e) {
+      print(e);
+    }
+  }
 }
