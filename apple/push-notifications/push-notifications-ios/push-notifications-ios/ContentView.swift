@@ -5,6 +5,7 @@
 //  Created by Kilo Loco on 1/9/21.
 //
 
+import Amplify
 import SwiftUI
 
 struct ContentView: View {
@@ -26,8 +27,24 @@ extension ContentView {
         @Published var messageText = ""
         
         func sendMessage() {
-            print(messageText)
-            messageText.removeAll()
+            guard let deviceToken = DeviceTokenManager.shared.deviceToken else { return }
+            
+            print(messageText, deviceToken)
+            
+            let message = Message(body: messageText, deviceToken: deviceToken)
+            
+            Amplify.DataStore.save(message) { result in
+                switch result {
+                case .success(let savedMessage):
+                    print("Sent", savedMessage)
+                    DispatchQueue.main.async { [weak self] in
+                        self?.messageText.removeAll()
+                    }
+                    
+                case .failure(let error):
+                    print(error)
+                }
+            }
         }
     }
 }

@@ -1,0 +1,27 @@
+{
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pushnotificationstut-staging-22606-authRole",
+            "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-pushnotificationstut-staging-22606-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-pushnotificationstut-staging-22606-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-pushnotificationstut-staging-22606-deployment",
+            "UnauthRoleName": "amplify-pushnotificationstut-staging-22606-unauthRole",
+            "StackName": "amplify-pushnotificationstut-staging-22606",
+            "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-pushnotificationstut-staging-22606/320b0fb0-52eb-11eb-ba91-0a9226e9facd",
+            "AmplifyAppId": "dghz0yuq4ydgh"
+        },
+        "categories": {
+            "auth": {
+                "cognito102d7417": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "PushNotificationsTutorialQYBRw-staging",
+                    "Id": "840109638f2c46a6a074fced982b94fd",
+                    "Region": "us-west-2"
+                }
+            }
+        }
+    }
+}

@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E065910A148447F63EF95BE /* Pods_push_notifications_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30033937116F311C06CFCDEE /* Pods_push_notifications_ios.framework */; };
+		7C9DD40025AA982D006BD1AA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DD3FF25AA982D006BD1AA /* NotificationService.swift */; };
+		7C9DD40E25AA9FAB006BD1AA /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DD40C25AA9FAB006BD1AA /* amplifyconfiguration.json */; };
+		7C9DD40F25AA9FAB006BD1AA /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DD40D25AA9FAB006BD1AA /* awsconfiguration.json */; };
+		7C9DD41425AA9FC0006BD1AA /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DD41125AA9FBF006BD1AA /* AmplifyModels.swift */; };
+		7C9DD41525AA9FC0006BD1AA /* Message+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DD41225AA9FBF006BD1AA /* Message+Schema.swift */; };
+		7C9DD41625AA9FC0006BD1AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DD41325AA9FBF006BD1AA /* Message.swift */; };
 		7CAAB85425AA442B00861053 /* push_notifications_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAAB85325AA442B00861053 /* push_notifications_iosApp.swift */; };
 		7CAAB85625AA442B00861053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAAB85525AA442B00861053 /* ContentView.swift */; };
 		7CAAB85825AA442B00861053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAAB85725AA442B00861053 /* Assets.xcassets */; };
@@ -14,12 +21,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30033937116F311C06CFCDEE /* Pods_push_notifications_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_push_notifications_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1A811905BFF47E9EFF1EEB /* Pods-push-notifications-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-push-notifications-ios.release.xcconfig"; path = "Target Support Files/Pods-push-notifications-ios/Pods-push-notifications-ios.release.xcconfig"; sourceTree = "<group>"; };
+		7C9DD3FF25AA982D006BD1AA /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		7C9DD40225AA9C73006BD1AA /* push-notifications-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "push-notifications-ios.entitlements"; sourceTree = "<group>"; };
+		7C9DD40C25AA9FAB006BD1AA /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		7C9DD40D25AA9FAB006BD1AA /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		7C9DD41125AA9FBF006BD1AA /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
+		7C9DD41225AA9FBF006BD1AA /* Message+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Message+Schema.swift"; path = "amplify/generated/models/Message+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7C9DD41325AA9FBF006BD1AA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = amplify/generated/models/Message.swift; sourceTree = SOURCE_ROOT; };
 		7CAAB85025AA442B00861053 /* push-notifications-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "push-notifications-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAAB85325AA442B00861053 /* push_notifications_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = push_notifications_iosApp.swift; sourceTree = "<group>"; };
 		7CAAB85525AA442B00861053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CAAB85725AA442B00861053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CAAB85A25AA442B00861053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CAAB85C25AA442B00861053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B11629024BB845D7A7A4EB /* Pods-push-notifications-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-push-notifications-ios.debug.xcconfig"; path = "Target Support Files/Pods-push-notifications-ios/Pods-push-notifications-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +44,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E065910A148447F63EF95BE /* Pods_push_notifications_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241269512B3AE1E89DE6512A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30033937116F311C06CFCDEE /* Pods_push_notifications_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CAAB84725AA442B00861053 = {
 			isa = PBXGroup;
 			children = (
 				7CAAB85225AA442B00861053 /* push-notifications-ios */,
 				7CAAB85125AA442B00861053 /* Products */,
+				DCAFCB60AE3E0ECAFC765AE5 /* Pods */,
+				241269512B3AE1E89DE6512A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +80,18 @@
 		7CAAB85225AA442B00861053 /* push-notifications-ios */ = {
 			isa = PBXGroup;
 			children = (
+				7C9DD41125AA9FBF006BD1AA /* AmplifyModels.swift */,
+				7C9DD41325AA9FBF006BD1AA /* Message.swift */,
+				7C9DD41225AA9FBF006BD1AA /* Message+Schema.swift */,
+				7C9DD40C25AA9FAB006BD1AA /* amplifyconfiguration.json */,
+				7C9DD40D25AA9FAB006BD1AA /* awsconfiguration.json */,
+				7C9DD40225AA9C73006BD1AA /* push-notifications-ios.entitlements */,
 				7CAAB85325AA442B00861053 /* push_notifications_iosApp.swift */,
 				7CAAB85525AA442B00861053 /* ContentView.swift */,
 				7CAAB85725AA442B00861053 /* Assets.xcassets */,
 				7CAAB85C25AA442B00861053 /* Info.plist */,
 				7CAAB85925AA442B00861053 /* Preview Content */,
+				7C9DD3FF25AA982D006BD1AA /* NotificationService.swift */,
 			);
 			path = "push-notifications-ios";
 			sourceTree = "<group>";
@@ -69,6 +104,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DCAFCB60AE3E0ECAFC765AE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80B11629024BB845D7A7A4EB /* Pods-push-notifications-ios.debug.xcconfig */,
+				6C1A811905BFF47E9EFF1EEB /* Pods-push-notifications-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CAAB85F25AA442B00861053 /* Build configuration list for PBXNativeTarget "push-notifications-ios" */;
 			buildPhases = (
+				1AAA015C39029B5609539E4E /* [CP] Check Pods Manifest.lock */,
 				7CAAB84C25AA442B00861053 /* Sources */,
 				7CAAB84D25AA442B00861053 /* Frameworks */,
 				7CAAB84E25AA442B00861053 /* Resources */,
+				308C1BE869B20553E5217D45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +172,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9DD40F25AA9FAB006BD1AA /* awsconfiguration.json in Resources */,
 				7CAAB85B25AA442B00861053 /* Preview Assets.xcassets in Resources */,
+				7C9DD40E25AA9FAB006BD1AA /* amplifyconfiguration.json in Resources */,
 				7CAAB85825AA442B00861053 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AAA015C39029B5609539E4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-push-notifications-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308C1BE869B20553E5217D45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-push-notifications-ios/Pods-push-notifications-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-push-notifications-ios/Pods-push-notifications-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-push-notifications-ios/Pods-push-notifications-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CAAB84C25AA442B00861053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9DD41425AA9FC0006BD1AA /* AmplifyModels.swift in Sources */,
 				7CAAB85625AA442B00861053 /* ContentView.swift in Sources */,
+				7C9DD41525AA9FC0006BD1AA /* Message+Schema.swift in Sources */,
+				7C9DD41625AA9FC0006BD1AA /* Message.swift in Sources */,
+				7C9DD40025AA982D006BD1AA /* NotificationService.swift in Sources */,
 				7CAAB85425AA442B00861053 /* push_notifications_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +358,11 @@
 		};
 		7CAAB86025AA442B00861053 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B11629024BB845D7A7A4EB /* Pods-push-notifications-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "push-notifications-ios/push-notifications-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"push-notifications-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
@@ -277,7 +373,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.push-notifications-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.push-notifications-ios-tut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -286,9 +382,11 @@
 		};
 		7CAAB86125AA442B00861053 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1A811905BFF47E9EFF1EEB /* Pods-push-notifications-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "push-notifications-ios/push-notifications-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"push-notifications-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
@@ -299,7 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.push-notifications-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.push-notifications-ios-tut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

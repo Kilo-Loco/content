@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "PushNotificationsTutorial",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
