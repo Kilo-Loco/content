@@ -1,0 +1,13 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "Android Amplify DataStore CRUD",
+  "version": "3.0",
+  "frontend": "android",
+  "android": {
+    "config": {
+      "ResDir": "app/src/main/res"
+    }
+  }
+}

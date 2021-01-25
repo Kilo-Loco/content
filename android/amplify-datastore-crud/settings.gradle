@@ -1,0 +1,2 @@
+rootProject.name = "amplify-datastore-crud"
+include ':app'
