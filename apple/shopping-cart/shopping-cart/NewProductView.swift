@@ -5,6 +5,8 @@
 //  Created by Kilo Loco on 1/26/21.
 //
 
+import Amplify
+import Combine
 import SwiftUI
 
 struct NewProductView: View {
@@ -21,9 +23,12 @@ struct NewProductView: View {
                         value: $viewModel.productPrice
                     )
                 }
-                Button("Submit", action: { print("\(viewModel.productName): \(viewModel.productPrice)") })
+                Button("Submit", action: viewModel.createProduct)
             }
             .navigationTitle("New Product")
+        }
+        .onAppear {
+            viewModel.configure(with: presentationMode)
         }
     }
 }
@@ -32,6 +37,32 @@ extension NewProductView {
     class ViewModel: ObservableObject {
         @Published var productName = ""
         @Published var productPrice = 0
+        
+        private var presentationMode: Binding<PresentationMode>?
+        
+        func configure(with presentationMode: Binding<PresentationMode>) {
+            self.presentationMode = presentationMode
+        }
+        
+        
+        
+        private var token: AnyCancellable?
+        func createProduct() {
+            let product = Product(
+                name: productName,
+                price: productPrice
+            )
+            
+            token = Amplify.DataStore.save(product)
+                .receive(on: DispatchQueue.main)
+                .sink { completion in
+                    print(completion)
+                } receiveValue: { [weak self] savedProduct in
+                    print("saved \(savedProduct.name)")
+                    self?.presentationMode?.wrappedValue.dismiss()
+                }
+
+        }
     }
 }
 

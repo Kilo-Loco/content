@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0B439425C0FEA900C10D16 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B438D25C0FEA900C10D16 /* Cart.swift */; };
+		7C0B439525C0FEA900C10D16 /* CartProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B438E25C0FEA900C10D16 /* CartProduct.swift */; };
+		7C0B439625C0FEA900C10D16 /* CartProduct+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B438F25C0FEA900C10D16 /* CartProduct+Schema.swift */; };
+		7C0B439725C0FEA900C10D16 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B439025C0FEA900C10D16 /* Product.swift */; };
+		7C0B439825C0FEA900C10D16 /* Product+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B439125C0FEA900C10D16 /* Product+Schema.swift */; };
+		7C0B439925C0FEA900C10D16 /* Cart+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B439225C0FEA900C10D16 /* Cart+Schema.swift */; };
+		7C0B439A25C0FEA900C10D16 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B439325C0FEA900C10D16 /* AmplifyModels.swift */; };
 		7C9EB89125C0F28300168D42 /* shopping_cartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB89025C0F28300168D42 /* shopping_cartApp.swift */; };
 		7C9EB89525C0F28400168D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EB89425C0F28400168D42 /* Assets.xcassets */; };
 		7C9EB89825C0F28400168D42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EB89725C0F28400168D42 /* Preview Assets.xcassets */; };
@@ -14,11 +21,21 @@
 		7C9EB8A525C0F4A800168D42 /* NewProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB8A425C0F4A800168D42 /* NewProductView.swift */; };
 		7C9EB8A825C0F6D700168D42 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EB8A725C0F6D700168D42 /* CartView.swift */; };
 		7DB1750B422239D1ABAAEE48 /* Pods_shopping_cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D831F056925884CC4F84BB /* Pods_shopping_cart.framework */; };
+		8011AA470CC847718C2957ED /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = EFCC5CBD07A8407A8F66BF74 /* awsconfiguration.json */; };
+		96BE207FC8FA47BCAB68367E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 83A0B29000C5428CBCB3606E /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CD085342F0E8C1B99CC8280 /* Pods-shopping-cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopping-cart.release.xcconfig"; path = "Target Support Files/Pods-shopping-cart/Pods-shopping-cart.release.xcconfig"; sourceTree = "<group>"; };
+		7167D5B2AB454CF389E94D52 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
 		7736EB1F79B94C48B068BDB2 /* Pods-shopping-cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopping-cart.debug.xcconfig"; path = "Target Support Files/Pods-shopping-cart/Pods-shopping-cart.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0B438D25C0FEA900C10D16 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = amplify/generated/models/Cart.swift; sourceTree = SOURCE_ROOT; };
+		7C0B438E25C0FEA900C10D16 /* CartProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartProduct.swift; path = amplify/generated/models/CartProduct.swift; sourceTree = SOURCE_ROOT; };
+		7C0B438F25C0FEA900C10D16 /* CartProduct+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CartProduct+Schema.swift"; path = "amplify/generated/models/CartProduct+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7C0B439025C0FEA900C10D16 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = amplify/generated/models/Product.swift; sourceTree = SOURCE_ROOT; };
+		7C0B439125C0FEA900C10D16 /* Product+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+Schema.swift"; path = "amplify/generated/models/Product+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7C0B439225C0FEA900C10D16 /* Cart+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Cart+Schema.swift"; path = "amplify/generated/models/Cart+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		7C0B439325C0FEA900C10D16 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
 		7C9EB88D25C0F28300168D42 /* shopping-cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shopping-cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9EB89025C0F28300168D42 /* shopping_cartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopping_cartApp.swift; sourceTree = "<group>"; };
 		7C9EB89425C0F28400168D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,7 +44,10 @@
 		7C9EB8A125C0F41600168D42 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
 		7C9EB8A425C0F4A800168D42 /* NewProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductView.swift; sourceTree = "<group>"; };
 		7C9EB8A725C0F6D700168D42 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		83A0B29000C5428CBCB3606E /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		85EA82FC6FCE499BBB24060F /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
 		C5D831F056925884CC4F84BB /* Pods_shopping_cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shopping_cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCC5CBD07A8407A8F66BF74 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +70,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		39E5CE955EAE4BEDB3780D78 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				7167D5B2AB454CF389E94D52 /* amplifytools.xcconfig */,
+				83A0B29000C5428CBCB3606E /* amplifyconfiguration.json */,
+				EFCC5CBD07A8407A8F66BF74 /* awsconfiguration.json */,
+				85EA82FC6FCE499BBB24060F /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
 		7C9EB88425C0F28300168D42 = {
 			isa = PBXGroup;
 			children = (
+				39E5CE955EAE4BEDB3780D78 /* AmplifyConfig */,
 				7C9EB88F25C0F28300168D42 /* shopping-cart */,
 				7C9EB88E25C0F28300168D42 /* Products */,
 				94B40981815AD33232BA8BFE /* Pods */,
@@ -71,6 +104,13 @@
 		7C9EB88F25C0F28300168D42 /* shopping-cart */ = {
 			isa = PBXGroup;
 			children = (
+				7C0B439325C0FEA900C10D16 /* AmplifyModels.swift */,
+				7C0B438D25C0FEA900C10D16 /* Cart.swift */,
+				7C0B439225C0FEA900C10D16 /* Cart+Schema.swift */,
+				7C0B438E25C0FEA900C10D16 /* CartProduct.swift */,
+				7C0B438F25C0FEA900C10D16 /* CartProduct+Schema.swift */,
+				7C0B439025C0FEA900C10D16 /* Product.swift */,
+				7C0B439125C0FEA900C10D16 /* Product+Schema.swift */,
 				7C9EB89025C0F28300168D42 /* shopping_cartApp.swift */,
 				7C9EB89425C0F28400168D42 /* Assets.xcassets */,
 				7C9EB89925C0F28400168D42 /* Info.plist */,
@@ -96,7 +136,6 @@
 				7736EB1F79B94C48B068BDB2 /* Pods-shopping-cart.debug.xcconfig */,
 				2CD085342F0E8C1B99CC8280 /* Pods-shopping-cart.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +200,8 @@
 			files = (
 				7C9EB89825C0F28400168D42 /* Preview Assets.xcassets in Resources */,
 				7C9EB89525C0F28400168D42 /* Assets.xcassets in Resources */,
+				96BE207FC8FA47BCAB68367E /* amplifyconfiguration.json in Resources */,
+				8011AA470CC847718C2957ED /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,8 +255,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C9EB8A225C0F41600168D42 /* ProductsView.swift in Sources */,
+				7C0B439725C0FEA900C10D16 /* Product.swift in Sources */,
 				7C9EB89125C0F28300168D42 /* shopping_cartApp.swift in Sources */,
+				7C0B439825C0FEA900C10D16 /* Product+Schema.swift in Sources */,
+				7C0B439425C0FEA900C10D16 /* Cart.swift in Sources */,
+				7C0B439625C0FEA900C10D16 /* CartProduct+Schema.swift in Sources */,
+				7C0B439525C0FEA900C10D16 /* CartProduct.swift in Sources */,
+				7C0B439A25C0FEA900C10D16 /* AmplifyModels.swift in Sources */,
 				7C9EB8A825C0F6D700168D42 /* CartView.swift in Sources */,
+				7C0B439925C0FEA900C10D16 /* Cart+Schema.swift in Sources */,
 				7C9EB8A525C0F4A800168D42 /* NewProductView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
