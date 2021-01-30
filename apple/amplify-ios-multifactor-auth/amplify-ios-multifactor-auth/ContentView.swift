@@ -58,9 +58,13 @@ struct ContentView: View {
     let username = "Kilo_Loco"
     let password = "Password1"
     let email = "kyleez@amazon.com"
+    let phone = ProcessInfo.processInfo.environment["PHONE_NUMBER"]!
     
     func signUp() {
-        let userAttributes = [AuthUserAttribute(.email, value: email)]
+        let userAttributes = [
+            AuthUserAttribute(.email, value: email),
+            AuthUserAttribute(.phoneNumber, value: phone)
+        ]
         let options = AuthSignUpRequest.Options(userAttributes: userAttributes)
         
         Amplify.Auth.signUp(
@@ -124,7 +128,22 @@ struct ContentView: View {
     }
     
     func confirmSignIn() {
-        
+        Amplify.Auth.confirmSignIn(challengeResponse: smsCode) { result in
+            switch result {
+            case .success(let confirmSignInResult):
+                
+                switch confirmSignInResult.nextStep {
+                case .done:
+                    authStatus = "\(username) signed in with \(smsCode)"
+                    
+                default:
+                    authStatus = "Could not successfully authenticate \(username)"
+                }
+                
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }
 
