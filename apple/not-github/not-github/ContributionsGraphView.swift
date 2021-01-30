@@ -22,15 +22,15 @@ struct ContributionsGraphView: View {
     
     func GitHubColor(for count: Int) -> Color {
         if count > 15 {
-            return Color(red: 0.128, green: 0.428, blue: 0.222)
+            return Color(red: 0.867, green: 0.525, blue: 1)
         } else if count > 10 {
-            return Color(red: 0.192, green: 0.632, blue: 0.305)
+            return Color(red: 0.651, green: 0.310, blue: 0.765)
         } else if count > 5 {
-            return Color(red: 0.255, green: 0.768, blue: 0.391)
+            return Color(red: 0.498, green: 0.157, blue: 0.6)
         } else if count > 0 {
-            return Color(red: 0.606, green: 0.914, blue: 0.661)
+            return Color(red: 0.345, green: 0, blue: 0.435)
         } else {
-            return Color(.secondarySystemBackground)
+            return Color.clear
         }
     }
     
@@ -39,6 +39,7 @@ struct ContributionsGraphView: View {
             ForEach(days, id: \.date) { day in
                 GitHubColor(for: day.dataCount)
                     .frame(width: Self.boxSize, height: Self.boxSize)
+                    .border(Color(.tertiarySystemBackground), width: day.dataCount == 0 ? 1 : 0)
                     .cornerRadius(2)
                     .onTapGesture {
                         selectedDay(day)

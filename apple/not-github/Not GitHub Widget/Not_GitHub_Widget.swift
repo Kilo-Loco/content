@@ -39,9 +39,10 @@ struct Provider: TimelineProvider {
     func getTimeline(in context: Context, completion: @escaping (Timeline<ContributionsGraphEntry>) -> Void) {
         GitHubParser.getDevelopmentDays(for: "kilo-loco") { days in
             let entry = ContributionsGraphEntry(date: Date(), days: days)
+            let _5Minutes = Date().addingTimeInterval(300)
             let timeline = Timeline(
                 entries: [entry],
-                policy: TimelineReloadPolicy.after(Calendar.current.date(byAdding: .day, value: 1, to: Date())!)
+                policy: TimelineReloadPolicy.after(_5Minutes)
             )
             completion(timeline)
         }
