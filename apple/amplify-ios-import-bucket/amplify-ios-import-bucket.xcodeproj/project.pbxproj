@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599BDA632ECF3E2F3DC655AA /* Pods_amplify_ios_import_bucket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B77A1FCBE3828FEBCE607D /* Pods_amplify_ios_import_bucket.framework */; };
+		7CEB385E25C4F188005F01C0 /* amplify_ios_import_bucketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB385D25C4F188005F01C0 /* amplify_ios_import_bucketApp.swift */; };
+		7CEB386025C4F188005F01C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB385F25C4F188005F01C0 /* ContentView.swift */; };
+		7CEB386225C4F189005F01C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEB386125C4F189005F01C0 /* Assets.xcassets */; };
+		7CEB386525C4F189005F01C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEB386425C4F189005F01C0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48B77A1FCBE3828FEBCE607D /* Pods_amplify_ios_import_bucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amplify_ios_import_bucket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEB385A25C4F188005F01C0 /* amplify-ios-import-bucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-ios-import-bucket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEB385D25C4F188005F01C0 /* amplify_ios_import_bucketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplify_ios_import_bucketApp.swift; sourceTree = "<group>"; };
+		7CEB385F25C4F188005F01C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CEB386125C4F189005F01C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEB386425C4F189005F01C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CEB386625C4F189005F01C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82D79BF32CCCB483BBA85DC /* Pods-amplify-ios-import-bucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-ios-import-bucket.release.xcconfig"; path = "Target Support Files/Pods-amplify-ios-import-bucket/Pods-amplify-ios-import-bucket.release.xcconfig"; sourceTree = "<group>"; };
+		C8476B484A9152368B69F154 /* Pods-amplify-ios-import-bucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-ios-import-bucket.debug.xcconfig"; path = "Target Support Files/Pods-amplify-ios-import-bucket/Pods-amplify-ios-import-bucket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEB385725C4F188005F01C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599BDA632ECF3E2F3DC655AA /* Pods_amplify_ios_import_bucket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CEB385125C4F188005F01C0 = {
+			isa = PBXGroup;
+			children = (
+				7CEB385C25C4F188005F01C0 /* amplify-ios-import-bucket */,
+				7CEB385B25C4F188005F01C0 /* Products */,
+				CE50B343BE0AF09E6F5E3378 /* Pods */,
+				B288A6E422E49A77BCA44459 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEB385B25C4F188005F01C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB385A25C4F188005F01C0 /* amplify-ios-import-bucket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEB385C25C4F188005F01C0 /* amplify-ios-import-bucket */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB385D25C4F188005F01C0 /* amplify_ios_import_bucketApp.swift */,
+				7CEB385F25C4F188005F01C0 /* ContentView.swift */,
+				7CEB386125C4F189005F01C0 /* Assets.xcassets */,
+				7CEB386625C4F189005F01C0 /* Info.plist */,
+				7CEB386325C4F189005F01C0 /* Preview Content */,
+			);
+			path = "amplify-ios-import-bucket";
+			sourceTree = "<group>";
+		};
+		7CEB386325C4F189005F01C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB386425C4F189005F01C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B288A6E422E49A77BCA44459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B77A1FCBE3828FEBCE607D /* Pods_amplify_ios_import_bucket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE50B343BE0AF09E6F5E3378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8476B484A9152368B69F154 /* Pods-amplify-ios-import-bucket.debug.xcconfig */,
+				A82D79BF32CCCB483BBA85DC /* Pods-amplify-ios-import-bucket.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEB385925C4F188005F01C0 /* amplify-ios-import-bucket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEB386925C4F189005F01C0 /* Build configuration list for PBXNativeTarget "amplify-ios-import-bucket" */;
+			buildPhases = (
+				59F957723F1090B750366796 /* [CP] Check Pods Manifest.lock */,
+				7CEB385625C4F188005F01C0 /* Sources */,
+				7CEB385725C4F188005F01C0 /* Frameworks */,
+				7CEB385825C4F188005F01C0 /* Resources */,
+				2CC0D49C6D4DE3B0F3826632 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amplify-ios-import-bucket";
+			productName = "amplify-ios-import-bucket";
+			productReference = 7CEB385A25C4F188005F01C0 /* amplify-ios-import-bucket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEB385225C4F188005F01C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7CEB385925C4F188005F01C0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7CEB385525C4F188005F01C0 /* Build configuration list for PBXProject "amplify-ios-import-bucket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEB385125C4F188005F01C0;
+			productRefGroup = 7CEB385B25C4F188005F01C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEB385925C4F188005F01C0 /* amplify-ios-import-bucket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEB385825C4F188005F01C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEB386525C4F189005F01C0 /* Preview Assets.xcassets in Resources */,
+				7CEB386225C4F189005F01C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC0D49C6D4DE3B0F3826632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-ios-import-bucket/Pods-amplify-ios-import-bucket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-ios-import-bucket/Pods-amplify-ios-import-bucket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amplify-ios-import-bucket/Pods-amplify-ios-import-bucket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F957723F1090B750366796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amplify-ios-import-bucket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEB385625C4F188005F01C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEB386025C4F188005F01C0 /* ContentView.swift in Sources */,
+				7CEB385E25C4F188005F01C0 /* amplify_ios_import_bucketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CEB386725C4F189005F01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEB386825C4F189005F01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEB386A25C4F189005F01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8476B484A9152368B69F154 /* Pods-amplify-ios-import-bucket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-ios-import-bucket/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-ios-import-bucket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-ios-import-bucket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CEB386B25C4F189005F01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82D79BF32CCCB483BBA85DC /* Pods-amplify-ios-import-bucket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-ios-import-bucket/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-ios-import-bucket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-ios-import-bucket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEB385525C4F188005F01C0 /* Build configuration list for PBXProject "amplify-ios-import-bucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEB386725C4F189005F01C0 /* Debug */,
+				7CEB386825C4F189005F01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEB386925C4F189005F01C0 /* Build configuration list for PBXNativeTarget "amplify-ios-import-bucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEB386A25C4F189005F01C0 /* Debug */,
+				7CEB386B25C4F189005F01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CEB385225C4F188005F01C0 /* Project object */;
+}
