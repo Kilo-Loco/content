@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CEB383825C4E77B005F01C0 /* amplify_ios_multifactor_authApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB383725C4E77B005F01C0 /* amplify_ios_multifactor_authApp.swift */; };
+		7CEB383A25C4E77B005F01C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB383925C4E77B005F01C0 /* ContentView.swift */; };
+		7CEB383C25C4E77C005F01C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEB383B25C4E77C005F01C0 /* Assets.xcassets */; };
+		7CEB383F25C4E77C005F01C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEB383E25C4E77C005F01C0 /* Preview Assets.xcassets */; };
+		AF1129E145737D0975F15FDC /* Pods_amplify_ios_multifactor_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109F51E3FEC90567960C5054 /* Pods_amplify_ios_multifactor_auth.framework */; };
+		B6CBECE075EF42BF83B75313 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 66005DFFDE534B0D963C1119 /* amplifyconfiguration.json */; };
+		C4C3ABD2462D415E862D13A0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9633B536A0614BD8BFFEE197 /* awsconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		109F51E3FEC90567960C5054 /* Pods_amplify_ios_multifactor_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amplify_ios_multifactor_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		140771BA1021664B3E51124C /* Pods-amplify-ios-multifactor-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-ios-multifactor-auth.release.xcconfig"; path = "Target Support Files/Pods-amplify-ios-multifactor-auth/Pods-amplify-ios-multifactor-auth.release.xcconfig"; sourceTree = "<group>"; };
+		4CDCF6BE744BA06C2B9FAEFA /* Pods-amplify-ios-multifactor-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplify-ios-multifactor-auth.debug.xcconfig"; path = "Target Support Files/Pods-amplify-ios-multifactor-auth/Pods-amplify-ios-multifactor-auth.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEB383425C4E77B005F01C0 /* amplify-ios-multifactor-auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amplify-ios-multifactor-auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEB383725C4E77B005F01C0 /* amplify_ios_multifactor_authApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amplify_ios_multifactor_authApp.swift; sourceTree = "<group>"; };
+		7CEB383925C4E77B005F01C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CEB383B25C4E77C005F01C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEB383E25C4E77C005F01C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CEB384025C4E77C005F01C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD50D890352D43DD8AB6A56B /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		66005DFFDE534B0D963C1119 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9633B536A0614BD8BFFEE197 /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEB383125C4E77B005F01C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1129E145737D0975F15FDC /* Pods_amplify_ios_multifactor_auth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2446B1A8C369F6FF2918DCB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCF6BE744BA06C2B9FAEFA /* Pods-amplify-ios-multifactor-auth.debug.xcconfig */,
+				140771BA1021664B3E51124C /* Pods-amplify-ios-multifactor-auth.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CEB382B25C4E77B005F01C0 = {
+			isa = PBXGroup;
+			children = (
+				B5252B6ADAE7437F8595BC0B /* AmplifyConfig */,
+				7CEB383625C4E77B005F01C0 /* amplify-ios-multifactor-auth */,
+				7CEB383525C4E77B005F01C0 /* Products */,
+				2446B1A8C369F6FF2918DCB1 /* Pods */,
+				FDA6D1D42B7A50CE240BD16E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEB383525C4E77B005F01C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB383425C4E77B005F01C0 /* amplify-ios-multifactor-auth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEB383625C4E77B005F01C0 /* amplify-ios-multifactor-auth */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB383725C4E77B005F01C0 /* amplify_ios_multifactor_authApp.swift */,
+				7CEB383925C4E77B005F01C0 /* ContentView.swift */,
+				7CEB383B25C4E77C005F01C0 /* Assets.xcassets */,
+				7CEB384025C4E77C005F01C0 /* Info.plist */,
+				7CEB383D25C4E77C005F01C0 /* Preview Content */,
+			);
+			path = "amplify-ios-multifactor-auth";
+			sourceTree = "<group>";
+		};
+		7CEB383D25C4E77C005F01C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB383E25C4E77C005F01C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDA6D1D42B7A50CE240BD16E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				109F51E3FEC90567960C5054 /* Pods_amplify_ios_multifactor_auth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5252B6ADAE7437F8595BC0B /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				DD50D890352D43DD8AB6A56B /* amplifytools.xcconfig */,
+				66005DFFDE534B0D963C1119 /* amplifyconfiguration.json */,
+				9633B536A0614BD8BFFEE197 /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		2EA531E3460E4914AB168F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = undefined;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEB383325C4E77B005F01C0 /* amplify-ios-multifactor-auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEB384325C4E77C005F01C0 /* Build configuration list for PBXNativeTarget "amplify-ios-multifactor-auth" */;
+			buildPhases = (
+				FB84317674EF9B9EF5AE63F4 /* [CP] Check Pods Manifest.lock */,
+				7CEB383025C4E77B005F01C0 /* Sources */,
+				7CEB383125C4E77B005F01C0 /* Frameworks */,
+				7CEB383225C4E77B005F01C0 /* Resources */,
+				12377013A55583DD70931CC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amplify-ios-multifactor-auth";
+			productName = "amplify-ios-multifactor-auth";
+			productReference = 7CEB383425C4E77B005F01C0 /* amplify-ios-multifactor-auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEB382C25C4E77B005F01C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7CEB383325C4E77B005F01C0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7CEB382F25C4E77B005F01C0 /* Build configuration list for PBXProject "amplify-ios-multifactor-auth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEB382B25C4E77B005F01C0;
+			productRefGroup = 7CEB383525C4E77B005F01C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEB383325C4E77B005F01C0 /* amplify-ios-multifactor-auth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEB383225C4E77B005F01C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEB383F25C4E77C005F01C0 /* Preview Assets.xcassets in Resources */,
+				7CEB383C25C4E77C005F01C0 /* Assets.xcassets in Resources */,
+				B6CBECE075EF42BF83B75313 /* amplifyconfiguration.json in Resources */,
+				C4C3ABD2462D415E862D13A0 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12377013A55583DD70931CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-ios-multifactor-auth/Pods-amplify-ios-multifactor-auth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amplify-ios-multifactor-auth/Pods-amplify-ios-multifactor-auth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amplify-ios-multifactor-auth/Pods-amplify-ios-multifactor-auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB84317674EF9B9EF5AE63F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amplify-ios-multifactor-auth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEB383025C4E77B005F01C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEB383A25C4E77B005F01C0 /* ContentView.swift in Sources */,
+				7CEB383825C4E77B005F01C0 /* amplify_ios_multifactor_authApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CEB384125C4E77C005F01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEB384225C4E77C005F01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEB384425C4E77C005F01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDCF6BE744BA06C2B9FAEFA /* Pods-amplify-ios-multifactor-auth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-ios-multifactor-auth/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-ios-multifactor-auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-ios-multifactor-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CEB384525C4E77C005F01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140771BA1021664B3E51124C /* Pods-amplify-ios-multifactor-auth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"amplify-ios-multifactor-auth/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "amplify-ios-multifactor-auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.amplify-ios-multifactor-auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEB382F25C4E77B005F01C0 /* Build configuration list for PBXProject "amplify-ios-multifactor-auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEB384125C4E77C005F01C0 /* Debug */,
+				7CEB384225C4E77C005F01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEB384325C4E77C005F01C0 /* Build configuration list for PBXNativeTarget "amplify-ios-multifactor-auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEB384425C4E77C005F01C0 /* Debug */,
+				7CEB384525C4E77C005F01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CEB382C25C4E77B005F01C0 /* Project object */;
+}
