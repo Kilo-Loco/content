@@ -52,7 +52,28 @@ struct ContentView: View {
     }
     
     func getImage() {
-        
+        Amplify.Storage.list { result in
+            do {
+                let listResult = try result.get()
+//                listResult.items.forEach { print($0) }
+                
+                guard let amplifyLogoKey = listResult.items.first(where: {!$0.key.isEmpty})?.key else { return }
+                
+                Amplify.Storage.downloadData(key: amplifyLogoKey) { result in
+                    do {
+                        let imageData = try result.get()
+                        let image = UIImage(data: imageData)
+                        self.image = image
+                        
+                    } catch {
+                        print(error)
+                    }
+                }
+                
+            } catch {
+                print(error)
+            }
+        }
     }
 }
 

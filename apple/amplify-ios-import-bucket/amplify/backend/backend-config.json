@@ -1,0 +1,18 @@
+{
+  "auth": {
+    "amplifyiosimportbuck28cafa33": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "amplifyiosimportbuckbff5ae18": {
+      "service": "S3",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
+  }
+}
