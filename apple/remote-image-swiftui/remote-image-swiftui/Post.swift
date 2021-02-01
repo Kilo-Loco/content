@@ -9,9 +9,9 @@ import Foundation
 
 struct Post: Identifiable {
     let id = UUID().uuidString
-    let imagePath: String
+    let imageKey: String
     
-    init(imagePath: String = "https://www.kiloloco.com/images/memoji-circle.png") {
-        self.imagePath = imagePath
+    init(imageKey: String = "https://www.kiloloco.com/images/memoji-circle.png") {
+        self.imageKey = imageKey
     }
 }

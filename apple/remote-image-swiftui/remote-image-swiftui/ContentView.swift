@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var posts = [Post()]
+    @State var posts = [Post]()
     
     var body: some View {
         VStack {
             ScrollView {
                 LazyVStack {
                     ForEach(posts) { post in
-                        Text(post.imagePath)
+                        RemoteImage(
+                            placeholderImage: Image(systemName: "photo"),
+                            imageDownloader: AmplifyImageDownloader(post.imageKey)
+                        )
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250, height: 250)
                     }
                 }
             }
@@ -26,7 +31,10 @@ struct ContentView: View {
     }
     
     func getMoreImages() {
-        posts = [Post(), Post(), Post(), Post(), Post()]
+        AmplifyService.getImageKeys { keys in
+            let posts = keys.map { Post(imageKey: $0) }
+            self.posts = posts
+        }
     }
 }
 

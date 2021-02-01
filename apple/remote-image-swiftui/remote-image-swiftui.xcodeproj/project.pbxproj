@@ -15,6 +15,8 @@
 		7C8542D725C7986B00CE123F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8542D625C7986B00CE123F /* Preview Assets.xcassets */; };
 		7C8542E025C798F200CE123F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8542DF25C798F200CE123F /* Post.swift */; };
 		7C8542F025C79F0000CE123F /* AmplifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8542EF25C79F0000CE123F /* AmplifyService.swift */; };
+		7C8542F325C7AAFD00CE123F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8542F225C7AAFD00CE123F /* RemoteImage.swift */; };
+		7C8542F625C7B28700CE123F /* AmplifyImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8542F525C7B28700CE123F /* AmplifyImageDownloader.swift */; };
 		AD06849D60AC495F991C5485 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C65302A82248748941670C /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		7C8542D825C7986B00CE123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C8542DF25C798F200CE123F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7C8542EF25C79F0000CE123F /* AmplifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyService.swift; sourceTree = "<group>"; };
+		7C8542F225C7AAFD00CE123F /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		7C8542F525C7B28700CE123F /* AmplifyImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyImageDownloader.swift; sourceTree = "<group>"; };
 		A9C65302A82248748941670C /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		D790B21AA59AEBD3838ADFB3 /* Pods-remote-image-swiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remote-image-swiftui.release.xcconfig"; path = "Target Support Files/Pods-remote-image-swiftui/Pods-remote-image-swiftui.release.xcconfig"; sourceTree = "<group>"; };
 		DE9A683EE27C49588D808B02 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
@@ -91,11 +95,13 @@
 			children = (
 				7C8542CF25C7986B00CE123F /* remote_image_swiftuiApp.swift */,
 				7C8542D125C7986B00CE123F /* ContentView.swift */,
+				7C8542F225C7AAFD00CE123F /* RemoteImage.swift */,
 				7C8542DF25C798F200CE123F /* Post.swift */,
 				7C8542D325C7986B00CE123F /* Assets.xcassets */,
 				7C8542D825C7986B00CE123F /* Info.plist */,
 				7C8542D525C7986B00CE123F /* Preview Content */,
 				7C8542EF25C79F0000CE123F /* AmplifyService.swift */,
+				7C8542F525C7B28700CE123F /* AmplifyImageDownloader.swift */,
 			);
 			path = "remote-image-swiftui";
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				7C8542E025C798F200CE123F /* Post.swift in Sources */,
 				7C8542D225C7986B00CE123F /* ContentView.swift in Sources */,
 				7C8542F025C79F0000CE123F /* AmplifyService.swift in Sources */,
+				7C8542F625C7B28700CE123F /* AmplifyImageDownloader.swift in Sources */,
+				7C8542F325C7AAFD00CE123F /* RemoteImage.swift in Sources */,
 				7C8542D025C7986B00CE123F /* remote_image_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
