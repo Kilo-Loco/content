@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-remoteimageswiftui-dev-184446-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-remoteimageswiftui-dev-184446-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-remoteimageswiftui-dev-184446-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-remoteimageswiftui-dev-184446-deployment",
+      "UnauthRoleName": "amplify-remoteimageswiftui-dev-184446-unauthRole",
+      "StackName": "amplify-remoteimageswiftui-dev-184446",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-remoteimageswiftui-dev-184446/73b4f4f0-6437-11eb-b630-0a852419935f",
+      "AmplifyAppId": "d320g1qigpcdh0"
+    },
+    "categories": {
+      "auth": {
+        "remoteimageswiftui087b71d0": {}
+      },
+      "storage": {
+        "remoteimageswiftuif93221e2": {
+          "bucketName": "kilo-loco-stock-photos",
+          "region": "us-west-1"
+        }
+      }
+    }
+  }
+}
