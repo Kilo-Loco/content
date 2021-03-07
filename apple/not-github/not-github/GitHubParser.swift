@@ -16,7 +16,7 @@ enum GitHubParser {
             let url = URL(string: "https://github.com/\(username)")!
             let html = try String(contentsOf: url)
             let doc = try SwiftSoup.parse(html)
-            let dayElements = try doc.getElementsByClass("day")
+            let dayElements = try doc.getElementsByClass("ContributionCalendar-day")
             
             let developmentDays = dayElements.compactMap { element -> DevelopmentDay? in
                 guard
