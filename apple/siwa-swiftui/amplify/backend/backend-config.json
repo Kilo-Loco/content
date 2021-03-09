@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "siwaswiftuid8ce7175d8ce7175": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

@@ -5,6 +5,8 @@
 //  Created by Kilo Loco on 3/8/21.
 //
 
+import Amplify
+import AmplifyPlugins
 import AuthenticationServices
 import SwiftUI
 
@@ -26,6 +28,10 @@ struct AppleUser: Codable {
         self.lastName = lastName
         self.email = email
     }
+}
+
+enum AuthProvider: String {
+    case signInWithApple
 }
 
 struct ContentView: View {
@@ -71,6 +77,8 @@ struct ContentView: View {
                     print(appleUser)
                 }
                 
+                signIn(with: appleIdCredentials.user)
+                
             default:
                 print(auth.credential)
             }
@@ -78,6 +86,28 @@ struct ContentView: View {
         case .failure(let error):
             print(error)
         }
+    }
+    
+    func signIn(with userId: String) {
+        guard
+            let plugin = try? Amplify.Auth.getPlugin(for: AWSCognitoAuthPlugin().key),
+            let authPlugin = plugin as? AWSCognitoAuthPlugin,
+            case .awsMobileClient(let client) = authPlugin.getEscapeHatch()
+        else { return }
+        
+        client.federatedSignIn(
+            providerName: AuthProvider.signInWithApple.rawValue,
+            token: userId) { (state, error) in
+            if let unwrappedError = error {
+                print(unwrappedError)
+            } else if let unwrappedState = state {
+                print("Successful federated sign in:", unwrappedState)
+            }
+        }
+    }
+    
+    func signOut() {
+        Amplify.Auth.signOut()
     }
 }
 

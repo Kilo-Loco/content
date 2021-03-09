@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-siwaswiftui-dev-201047-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-siwaswiftui-dev-201047-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-siwaswiftui-dev-201047-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-siwaswiftui-dev-201047-deployment",
+      "UnauthRoleName": "amplify-siwaswiftui-dev-201047-unauthRole",
+      "StackName": "amplify-siwaswiftui-dev-201047",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-siwaswiftui-dev-201047/6e12ec10-808d-11eb-9395-0a0b5ea6273f",
+      "AmplifyAppId": "dpl7n2ihh9mnc"
+    },
+    "categories": {
+      "auth": {
+        "siwaswiftuid8ce7175d8ce7175": {}
+      }
+    }
+  }
+}
