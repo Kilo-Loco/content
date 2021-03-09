@@ -20,6 +20,7 @@
 		7CA4AA7A25F71D6400EE522B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA4AA7D25F71D6400EE522B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CA4AA7F25F71D6400EE522B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA4AA8625F71F4C00EE522B /* siwa-swiftui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "siwa-swiftui.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		7CA4AA7525F71D6300EE522B /* siwa-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				7CA4AA8625F71F4C00EE522B /* siwa-swiftui.entitlements */,
 				7CA4AA7625F71D6300EE522B /* siwa_swiftuiApp.swift */,
 				7CA4AA7825F71D6300EE522B /* ContentView.swift */,
 				7CA4AA7A25F71D6400EE522B /* Assets.xcassets */,
@@ -267,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "siwa-swiftui/siwa-swiftui.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"siwa-swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
@@ -289,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "siwa-swiftui/siwa-swiftui.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"siwa-swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
