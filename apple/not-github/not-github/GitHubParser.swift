@@ -16,9 +16,11 @@ enum GitHubParser {
             let url = URL(string: "https://github.com/\(username)")!
             let html = try String(contentsOf: url)
             let doc = try SwiftSoup.parse(html)
-            let dayElements = try doc.getElementsByClass("day")
+            let dayElements = try doc.getElementsByClass("ContributionCalendar-day")
+            print(dayElements.count)
             
             let developmentDays = dayElements.compactMap { element -> DevelopmentDay? in
+                print(element)
                 guard
                     let dateString = try? element.attr("data-date"),
                     let date = DateService.shared.dateFormatter.date(from: dateString),
@@ -26,8 +28,10 @@ enum GitHubParser {
                     let dataCount = Int(dataCountString)
                 else { return nil }
                 
+                
                 return DevelopmentDay(date: date, dataCount: dataCount)
             }
+            print(developmentDays)
             
             let thisSaturday = Calendar.current.nextDate(
                 after: Date(),
