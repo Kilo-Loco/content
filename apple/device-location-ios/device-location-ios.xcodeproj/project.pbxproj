@@ -7,121 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C770CF3270C7AE200054BC2 /* Add_Package_ProductApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C770CF2270C7AE200054BC2 /* Add_Package_ProductApp.swift */; };
-		7C770CF5270C7AE200054BC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C770CF4270C7AE200054BC2 /* ContentView.swift */; };
-		7C770CF7270C7AE300054BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C770CF6270C7AE300054BC2 /* Assets.xcassets */; };
-		7C770CFA270C7AE300054BC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C770CF9270C7AE300054BC2 /* Preview Assets.xcassets */; };
-		7CEC259D270C83C200A0F93C /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7CEC259C270C83C200A0F93C /* AWSDataStorePlugin */; };
-		7CEC259F270C83C200A0F93C /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 7CEC259E270C83C200A0F93C /* Amplify */; };
-		7CEC25A2270C84C000A0F93C /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7CEC25A1270C84C000A0F93C /* AWSAPIPlugin */; };
+		7CA7DD72276031470063F6E1 /* device_location_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7DD71276031470063F6E1 /* device_location_iosApp.swift */; };
+		7CA7DD74276031470063F6E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7DD73276031470063F6E1 /* ContentView.swift */; };
+		7CA7DD76276031480063F6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7DD75276031480063F6E1 /* Assets.xcassets */; };
+		7CA7DD79276031480063F6E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7DD78276031480063F6E1 /* Preview Assets.xcassets */; };
+		7CA7DD80276031630063F6E1 /* DeviceLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7DD7F276031630063F6E1 /* DeviceLocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C770CEF270C7AE200054BC2 /* Add Package Product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Add Package Product.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C770CF2270C7AE200054BC2 /* Add_Package_ProductApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Package_ProductApp.swift; sourceTree = "<group>"; };
-		7C770CF4270C7AE200054BC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7C770CF6270C7AE300054BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C770CF9270C7AE300054BC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CA7DD6E276031470063F6E1 /* device-location-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "device-location-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA7DD71276031470063F6E1 /* device_location_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = device_location_iosApp.swift; sourceTree = "<group>"; };
+		7CA7DD73276031470063F6E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CA7DD75276031480063F6E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA7DD78276031480063F6E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CA7DD7F276031630063F6E1 /* DeviceLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C770CEC270C7AE200054BC2 /* Frameworks */ = {
+		7CA7DD6B276031470063F6E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CEC25A2270C84C000A0F93C /* AWSAPIPlugin in Frameworks */,
-				7CEC259D270C83C200A0F93C /* AWSDataStorePlugin in Frameworks */,
-				7CEC259F270C83C200A0F93C /* Amplify in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C770CE6270C7AE200054BC2 = {
+		7CA7DD65276031470063F6E1 = {
 			isa = PBXGroup;
 			children = (
-				7C770CF1270C7AE200054BC2 /* Add Package Product */,
-				7C770CF0270C7AE200054BC2 /* Products */,
-				7CEC25A0270C84C000A0F93C /* Frameworks */,
+				7CA7DD70276031470063F6E1 /* device-location-ios */,
+				7CA7DD6F276031470063F6E1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C770CF0270C7AE200054BC2 /* Products */ = {
+		7CA7DD6F276031470063F6E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C770CEF270C7AE200054BC2 /* Add Package Product.app */,
+				7CA7DD6E276031470063F6E1 /* device-location-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C770CF1270C7AE200054BC2 /* Add Package Product */ = {
+		7CA7DD70276031470063F6E1 /* device-location-ios */ = {
 			isa = PBXGroup;
 			children = (
-				7C770CF2270C7AE200054BC2 /* Add_Package_ProductApp.swift */,
-				7C770CF4270C7AE200054BC2 /* ContentView.swift */,
-				7C770CF6270C7AE300054BC2 /* Assets.xcassets */,
-				7C770CF8270C7AE300054BC2 /* Preview Content */,
+				7CA7DD7F276031630063F6E1 /* DeviceLocationService.swift */,
+				7CA7DD71276031470063F6E1 /* device_location_iosApp.swift */,
+				7CA7DD73276031470063F6E1 /* ContentView.swift */,
+				7CA7DD75276031480063F6E1 /* Assets.xcassets */,
+				7CA7DD77276031480063F6E1 /* Preview Content */,
 			);
-			path = "Add Package Product";
+			path = "device-location-ios";
 			sourceTree = "<group>";
 		};
-		7C770CF8270C7AE300054BC2 /* Preview Content */ = {
+		7CA7DD77276031480063F6E1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7C770CF9270C7AE300054BC2 /* Preview Assets.xcassets */,
+				7CA7DD78276031480063F6E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7CEC25A0270C84C000A0F93C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C770CEE270C7AE200054BC2 /* Add Package Product */ = {
+		7CA7DD6D276031470063F6E1 /* device-location-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C770CFD270C7AE300054BC2 /* Build configuration list for PBXNativeTarget "Add Package Product" */;
+			buildConfigurationList = 7CA7DD7C276031480063F6E1 /* Build configuration list for PBXNativeTarget "device-location-ios" */;
 			buildPhases = (
-				7C770CEB270C7AE200054BC2 /* Sources */,
-				7C770CEC270C7AE200054BC2 /* Frameworks */,
-				7C770CED270C7AE200054BC2 /* Resources */,
+				7CA7DD6A276031470063F6E1 /* Sources */,
+				7CA7DD6B276031470063F6E1 /* Frameworks */,
+				7CA7DD6C276031470063F6E1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Add Package Product";
-			packageProductDependencies = (
-				7CEC259C270C83C200A0F93C /* AWSDataStorePlugin */,
-				7CEC259E270C83C200A0F93C /* Amplify */,
-				7CEC25A1270C84C000A0F93C /* AWSAPIPlugin */,
-			);
-			productName = "Add Package Product";
-			productReference = 7C770CEF270C7AE200054BC2 /* Add Package Product.app */;
+			name = "device-location-ios";
+			productName = "device-location-ios";
+			productReference = 7CA7DD6E276031470063F6E1 /* device-location-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C770CE7270C7AE200054BC2 /* Project object */ = {
+		7CA7DD66276031470063F6E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					7C770CEE270C7AE200054BC2 = {
-						CreatedOnToolsVersion = 13.0;
+					7CA7DD6D276031470063F6E1 = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 7C770CEA270C7AE200054BC2 /* Build configuration list for PBXProject "Add Package Product" */;
+			buildConfigurationList = 7CA7DD69276031470063F6E1 /* Build configuration list for PBXProject "device-location-ios" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,45 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C770CE6270C7AE200054BC2;
-			packageReferences = (
-				7CEC259B270C83C200A0F93C /* XCRemoteSwiftPackageReference "amplify-ios" */,
-			);
-			productRefGroup = 7C770CF0270C7AE200054BC2 /* Products */;
+			mainGroup = 7CA7DD65276031470063F6E1;
+			productRefGroup = 7CA7DD6F276031470063F6E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C770CEE270C7AE200054BC2 /* Add Package Product */,
+				7CA7DD6D276031470063F6E1 /* device-location-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C770CED270C7AE200054BC2 /* Resources */ = {
+		7CA7DD6C276031470063F6E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C770CFA270C7AE300054BC2 /* Preview Assets.xcassets in Resources */,
-				7C770CF7270C7AE300054BC2 /* Assets.xcassets in Resources */,
+				7CA7DD79276031480063F6E1 /* Preview Assets.xcassets in Resources */,
+				7CA7DD76276031480063F6E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C770CEB270C7AE200054BC2 /* Sources */ = {
+		7CA7DD6A276031470063F6E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C770CF5270C7AE200054BC2 /* ContentView.swift in Sources */,
-				7C770CF3270C7AE200054BC2 /* Add_Package_ProductApp.swift in Sources */,
+				7CA7DD74276031470063F6E1 /* ContentView.swift in Sources */,
+				7CA7DD72276031470063F6E1 /* device_location_iosApp.swift in Sources */,
+				7CA7DD80276031630063F6E1 /* DeviceLocationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7C770CFB270C7AE300054BC2 /* Debug */ = {
+		7CA7DD7A276031480063F6E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		7C770CFC270C7AE300054BC2 /* Release */ = {
+		7CA7DD7B276031480063F6E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,17 +265,18 @@
 			};
 			name = Release;
 		};
-		7C770CFE270C7AE300054BC2 /* Debug */ = {
+		7CA7DD7D276031480063F6E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Add Package Product/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"device-location-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.Add-Package-Product";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.device-location-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,17 +296,18 @@
 			};
 			name = Debug;
 		};
-		7C770CFF270C7AE300054BC2 /* Release */ = {
+		7CA7DD7E276031480063F6E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Add Package Product/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"device-location-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K99777NES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.Add-Package-Product";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.device-location-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,54 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C770CEA270C7AE200054BC2 /* Build configuration list for PBXProject "Add Package Product" */ = {
+		7CA7DD69276031470063F6E1 /* Build configuration list for PBXProject "device-location-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C770CFB270C7AE300054BC2 /* Debug */,
-				7C770CFC270C7AE300054BC2 /* Release */,
+				7CA7DD7A276031480063F6E1 /* Debug */,
+				7CA7DD7B276031480063F6E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C770CFD270C7AE300054BC2 /* Build configuration list for PBXNativeTarget "Add Package Product" */ = {
+		7CA7DD7C276031480063F6E1 /* Build configuration list for PBXNativeTarget "device-location-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C770CFE270C7AE300054BC2 /* Debug */,
-				7C770CFF270C7AE300054BC2 /* Release */,
+				7CA7DD7D276031480063F6E1 /* Debug */,
+				7CA7DD7E276031480063F6E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7CEC259B270C83C200A0F93C /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7CEC259C270C83C200A0F93C /* AWSDataStorePlugin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7CEC259B270C83C200A0F93C /* XCRemoteSwiftPackageReference "amplify-ios" */;
-			productName = AWSDataStorePlugin;
-		};
-		7CEC259E270C83C200A0F93C /* Amplify */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7CEC259B270C83C200A0F93C /* XCRemoteSwiftPackageReference "amplify-ios" */;
-			productName = Amplify;
-		};
-		7CEC25A1270C84C000A0F93C /* AWSAPIPlugin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7CEC259B270C83C200A0F93C /* XCRemoteSwiftPackageReference "amplify-ios" */;
-			productName = AWSAPIPlugin;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7C770CE7270C7AE200054BC2 /* Project object */;
+	rootObject = 7CA7DD66276031470063F6E1 /* Project object */;
 }
