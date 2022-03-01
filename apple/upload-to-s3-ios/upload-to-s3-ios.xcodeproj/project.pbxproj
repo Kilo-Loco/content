@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4E53CD4845E4707FD31AC7 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DC27BCC7846C37D567A3C49 /* amplifyconfiguration.json */; };
+		2508D459712DB24EC5E14879 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 85E09E601A4EC5212BC737CC /* awsconfiguration.json */; };
 		7C471D5B27BEF5C500DB3DDC /* upload_to_s3_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C471D5A27BEF5C500DB3DDC /* upload_to_s3_iosApp.swift */; };
 		7C471D5D27BEF5C500DB3DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C471D5C27BEF5C500DB3DDC /* ContentView.swift */; };
 		7C471D5F27BEF5C600DB3DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C471D5E27BEF5C600DB3DDC /* Assets.xcassets */; };
 		7C471D6227BEF5C600DB3DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C471D6127BEF5C600DB3DDC /* Preview Assets.xcassets */; };
+		7C471D6A27BEF93A00DB3DDC /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7C471D6927BEF93A00DB3DDC /* AWSCognitoAuthPlugin */; };
+		7C471D6C27BEF93A00DB3DDC /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7C471D6B27BEF93A00DB3DDC /* AWSS3StoragePlugin */; };
+		7C471D6E27BEF93A00DB3DDC /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 7C471D6D27BEF93A00DB3DDC /* Amplify */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DC27BCC7846C37D567A3C49 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		7C471D5727BEF5C500DB3DDC /* upload-to-s3-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "upload-to-s3-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C471D5A27BEF5C500DB3DDC /* upload_to_s3_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload_to_s3_iosApp.swift; sourceTree = "<group>"; };
 		7C471D5C27BEF5C500DB3DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C471D5E27BEF5C600DB3DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C471D6127BEF5C600DB3DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85E09E601A4EC5212BC737CC /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C471D6E27BEF93A00DB3DDC /* Amplify in Frameworks */,
+				7C471D6A27BEF93A00DB3DDC /* AWSCognitoAuthPlugin in Frameworks */,
+				7C471D6C27BEF93A00DB3DDC /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53447D922666FE92104DE154 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				85E09E601A4EC5212BC737CC /* awsconfiguration.json */,
+				0DC27BCC7846C37D567A3C49 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
 		7C471D4E27BEF5C500DB3DDC = {
 			isa = PBXGroup;
 			children = (
 				7C471D5927BEF5C500DB3DDC /* upload-to-s3-ios */,
 				7C471D5827BEF5C500DB3DDC /* Products */,
+				53447D922666FE92104DE154 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +103,11 @@
 			dependencies = (
 			);
 			name = "upload-to-s3-ios";
+			packageProductDependencies = (
+				7C471D6927BEF93A00DB3DDC /* AWSCognitoAuthPlugin */,
+				7C471D6B27BEF93A00DB3DDC /* AWSS3StoragePlugin */,
+				7C471D6D27BEF93A00DB3DDC /* Amplify */,
+			);
 			productName = "upload-to-s3-ios";
 			productReference = 7C471D5727BEF5C500DB3DDC /* upload-to-s3-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 7C471D4E27BEF5C500DB3DDC;
+			packageReferences = (
+				7C471D6827BEF93A00DB3DDC /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 7C471D5827BEF5C500DB3DDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +155,8 @@
 			files = (
 				7C471D6227BEF5C600DB3DDC /* Preview Assets.xcassets in Resources */,
 				7C471D5F27BEF5C600DB3DDC /* Assets.xcassets in Resources */,
+				2508D459712DB24EC5E14879 /* awsconfiguration.json in Resources */,
+				0F4E53CD4845E4707FD31AC7 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +371,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C471D6827BEF93A00DB3DDC /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C471D6927BEF93A00DB3DDC /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C471D6827BEF93A00DB3DDC /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		7C471D6B27BEF93A00DB3DDC /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C471D6827BEF93A00DB3DDC /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		7C471D6D27BEF93A00DB3DDC /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C471D6827BEF93A00DB3DDC /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C471D4F27BEF5C500DB3DDC /* Project object */;
 }
