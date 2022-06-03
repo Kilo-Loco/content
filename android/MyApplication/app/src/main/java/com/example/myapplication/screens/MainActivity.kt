@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
