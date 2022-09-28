@@ -21,12 +21,11 @@ struct ContentView: View {
                 }
             }
         }
-        .onAppear(perform: getImages)
+        .onAppear(perform: getImageKeys)
     }
     
-    func getImages() {
+    func getImageKeys() {
         Amplify.Storage.list { result in
-            print(result)
             if case .success(let storageResult) = result {
                 self.imageKeys = storageResult.items
                     .map(\.key)
