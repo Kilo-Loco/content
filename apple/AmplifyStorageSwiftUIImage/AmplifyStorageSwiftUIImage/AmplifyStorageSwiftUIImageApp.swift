@@ -28,7 +28,6 @@ struct AmplifyStorageSwiftUIImageApp: App {
             try Amplify.add(plugin: AWSS3StoragePlugin())
             
             try Amplify.configure()
-            print("Successfully configured Amplify")
             
         } catch {
             print("Could not configure Amplify", error)
