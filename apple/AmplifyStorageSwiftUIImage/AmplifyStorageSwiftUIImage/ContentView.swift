@@ -6,6 +6,7 @@
 //
 
 import Amplify
+import AmplifyImage
 import SwiftUI
 
 struct ContentView: View {
@@ -17,7 +18,8 @@ struct ContentView: View {
         ScrollView {
             LazyVGrid(columns: columns) {
                 ForEach(imageKeys, id: \.self) { key in
-                    Text(key)
+                    AmplifyImage(key: key)
+                        .scaleToFillWidth(aspectRatio: 0.5)
                 }
             }
         }
