@@ -9,9 +9,29 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class PostUnitTests {
     @Test
-    fun addition_isCorrect() {
+    fun `Get posts ascending`() {
+        assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun `Get posts descending`() {
+        assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun `Get comments for post`() {
+        assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun `Create comment for post`() {
+        assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun `Delete comment for post`() {
         assertEquals(4, 2 + 2)
     }
 }

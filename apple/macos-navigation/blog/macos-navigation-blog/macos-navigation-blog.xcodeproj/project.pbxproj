@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C436A8B29132759003C91E9 /* macos_navigation_blogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C436A8A29132759003C91E9 /* macos_navigation_blogApp.swift */; };
+		7C436A8F2913275B003C91E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C436A8E2913275B003C91E9 /* Assets.xcassets */; };
+		7C436A922913275B003C91E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C436A912913275B003C91E9 /* Preview Assets.xcassets */; };
+		7C436A9B291327A1003C91E9 /* DummyData in Frameworks */ = {isa = PBXBuildFile; productRef = 7C436A9A291327A1003C91E9 /* DummyData */; };
+		7C436A9D291327DE003C91E9 /* ContentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C436A9C291327DE003C91E9 /* ContentViews.swift */; };
+		7C436A9F29132E2C003C91E9 /* NavigationManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C436A9E29132E2C003C91E9 /* NavigationManagerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C436A8729132759003C91E9 /* macos-navigation-blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macos-navigation-blog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C436A8A29132759003C91E9 /* macos_navigation_blogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_navigation_blogApp.swift; sourceTree = "<group>"; };
+		7C436A8E2913275B003C91E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C436A912913275B003C91E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C436A932913275B003C91E9 /* macos_navigation_blog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macos_navigation_blog.entitlements; sourceTree = "<group>"; };
+		7C436A9C291327DE003C91E9 /* ContentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViews.swift; sourceTree = "<group>"; };
+		7C436A9E29132E2C003C91E9 /* NavigationManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManagerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C436A8429132759003C91E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C436A9B291327A1003C91E9 /* DummyData in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C436A7E29132759003C91E9 = {
+			isa = PBXGroup;
+			children = (
+				7C436A8929132759003C91E9 /* macos-navigation-blog */,
+				7C436A8829132759003C91E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C436A8829132759003C91E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C436A8729132759003C91E9 /* macos-navigation-blog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C436A8929132759003C91E9 /* macos-navigation-blog */ = {
+			isa = PBXGroup;
+			children = (
+				7C436A8A29132759003C91E9 /* macos_navigation_blogApp.swift */,
+				7C436A9E29132E2C003C91E9 /* NavigationManagerView.swift */,
+				7C436A8E2913275B003C91E9 /* Assets.xcassets */,
+				7C436A932913275B003C91E9 /* macos_navigation_blog.entitlements */,
+				7C436A902913275B003C91E9 /* Preview Content */,
+				7C436A9C291327DE003C91E9 /* ContentViews.swift */,
+			);
+			path = "macos-navigation-blog";
+			sourceTree = "<group>";
+		};
+		7C436A902913275B003C91E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C436A912913275B003C91E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C436A8629132759003C91E9 /* macos-navigation-blog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C436A962913275B003C91E9 /* Build configuration list for PBXNativeTarget "macos-navigation-blog" */;
+			buildPhases = (
+				7C436A8329132759003C91E9 /* Sources */,
+				7C436A8429132759003C91E9 /* Frameworks */,
+				7C436A8529132759003C91E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macos-navigation-blog";
+			packageProductDependencies = (
+				7C436A9A291327A1003C91E9 /* DummyData */,
+			);
+			productName = "macos-navigation-blog";
+			productReference = 7C436A8729132759003C91E9 /* macos-navigation-blog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C436A7F29132759003C91E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7C436A8629132759003C91E9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 7C436A8229132759003C91E9 /* Build configuration list for PBXProject "macos-navigation-blog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C436A7E29132759003C91E9;
+			packageReferences = (
+				7C436A99291327A1003C91E9 /* XCRemoteSwiftPackageReference "swiftdummydata" */,
+			);
+			productRefGroup = 7C436A8829132759003C91E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C436A8629132759003C91E9 /* macos-navigation-blog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C436A8529132759003C91E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C436A922913275B003C91E9 /* Preview Assets.xcassets in Resources */,
+				7C436A8F2913275B003C91E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C436A8329132759003C91E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C436A9F29132E2C003C91E9 /* NavigationManagerView.swift in Sources */,
+				7C436A8B29132759003C91E9 /* macos_navigation_blogApp.swift in Sources */,
+				7C436A9D291327DE003C91E9 /* ContentViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C436A942913275B003C91E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C436A952913275B003C91E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7C436A972913275B003C91E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-navigation-blog/macos_navigation_blog.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-navigation-blog/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.macos-navigation-blog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7C436A982913275B003C91E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-navigation-blog/macos_navigation_blog.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-navigation-blog/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K99777NES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiloloco.macos-navigation-blog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C436A8229132759003C91E9 /* Build configuration list for PBXProject "macos-navigation-blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C436A942913275B003C91E9 /* Debug */,
+				7C436A952913275B003C91E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C436A962913275B003C91E9 /* Build configuration list for PBXNativeTarget "macos-navigation-blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C436A972913275B003C91E9 /* Debug */,
+				7C436A982913275B003C91E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C436A99291327A1003C91E9 /* XCRemoteSwiftPackageReference "swiftdummydata" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kilo-loco/swiftdummydata";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C436A9A291327A1003C91E9 /* DummyData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C436A99291327A1003C91E9 /* XCRemoteSwiftPackageReference "swiftdummydata" */;
+			productName = DummyData;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7C436A7F29132759003C91E9 /* Project object */;
+}
