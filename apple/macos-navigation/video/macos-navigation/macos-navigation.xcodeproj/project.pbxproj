@@ -65,6 +65,7 @@
 				7C9330A42915391E002210C9 /* macos_navigation.entitlements */,
 				7C9330A12915391E002210C9 /* Preview Content */,
 				7C9330AA29153966002210C9 /* ContentViews.swift */,
+				7C9330B029153A62002210C9 /* NavigationManagerView.swift */,
 			);
 			path = "macos-navigation";
 			sourceTree = "<group>";
@@ -80,7 +81,6 @@
 		7C9330AF29153A4B002210C9 /* next */ = {
 			isa = PBXGroup;
 			children = (
-				7C9330B029153A62002210C9 /* NavigationManagerView.swift */,
 			);
 			path = next;
 			sourceTree = "<group>";

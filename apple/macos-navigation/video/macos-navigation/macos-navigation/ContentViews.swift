@@ -9,9 +9,11 @@ import SwiftDummyData
 import SwiftUI
 
 struct UsersView: View {
+    let selectedUser: Binding<DDUser?>
+    
     var body: some View {
-        List(DDUser.data) { user in
-            Text(user.id)
+        List(DDUser.data, selection: selectedUser) { user in
+            NavigationLink(user.id, value: user)
         }
     }
 }
@@ -25,9 +27,11 @@ struct UserDetailsView: View {
 }
 
 struct AnimalsView: View {
+    let selectedAnimal: Binding<DDAnimal?>
+    
     var body: some View {
-        List(DDAnimal.data) { animal in
-            Text(animal.id)
+        List(DDAnimal.data, selection: selectedAnimal) { animal in
+            NavigationLink(animal.id, value: animal)
         }
     }
 }
@@ -41,9 +45,11 @@ struct AnimalDetailsView: View {
 }
 
 struct FoodView: View {
+    let selectedFood: Binding<DDFood?>
+    
     var body: some View {
-        List(DDFood.data) { food in
-            Text(food.id)
+        List(DDFood.data, selection: selectedFood) { food in
+            NavigationLink(food.id, value: food)
         }
     }
 }
