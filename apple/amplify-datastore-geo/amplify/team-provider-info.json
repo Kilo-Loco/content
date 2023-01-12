@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifydatastoregeo-dev-202328-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-amplifydatastoregeo-dev-202328-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-amplifydatastoregeo-dev-202328-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplifydatastoregeo-dev-202328-deployment",
+      "UnauthRoleName": "amplify-amplifydatastoregeo-dev-202328-unauthRole",
+      "StackName": "amplify-amplifydatastoregeo-dev-202328",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-amplifydatastoregeo-dev-202328/e7c44180-75e6-11ed-a2b8-061d2a5706ff",
+      "AmplifyAppId": "d6zxqhhi6aufi"
+    },
+    "categories": {
+      "auth": {
+        "amplifydatastoregeo6444d6a9": {},
+        "true": {}
+      }
+    }
+  }
+}

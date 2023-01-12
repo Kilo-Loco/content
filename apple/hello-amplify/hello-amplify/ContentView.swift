@@ -1,11 +1,10 @@
 //
 //  ContentView.swift
-//  amplify-datastore-geo
+//  hello-amplify
 //
-//  Created by Kilo Loco on 12/6/22.
+//  Created by Kilo Loco on 1/10/23.
 //
 
-import AmplifyMapLibreUI
 import SwiftUI
 
 struct ContentView: View {
@@ -17,5 +16,11 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
