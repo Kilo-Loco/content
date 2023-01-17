@@ -11,9 +11,9 @@ import SwiftUI
 @main
 struct hello_amplifyApp: App {
     
-    init() {
-        configureAmplify()
-    }
+init() {
+    configureAmplify()
+}
     
     var body: some Scene {
         WindowGroup {
@@ -25,7 +25,6 @@ struct hello_amplifyApp: App {
         do {
             try Amplify.configure()
             print("Successfully configured Amplify")
-            
         } catch {
             print("Could not configure Amplify", error)
         }
