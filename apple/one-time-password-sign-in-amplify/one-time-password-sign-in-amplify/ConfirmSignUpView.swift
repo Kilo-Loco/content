@@ -35,6 +35,6 @@ struct ConfirmSignUpView: View {
 
 struct ConfirmSignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        ConfirmSignUpView()
+        ConfirmSignUpView(didConfirmSignUp: {})
     }
 }
